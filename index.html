@@ -1,1033 +1,1012 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'PingFang SC'}
-    span.s1 {font: 12.0px Helvetica}
-    span.s2 {font: 12.0px 'Hiragino Sans'}
-    span.s3 {font: 12.0px 'Zapf Dingbats'}
-    span.s4 {font: 12.0px 'Apple Color Emoji'}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Opalina Diseños | Santitos Primera Comunión y Bautizo en Chile</title>
+<meta name="description" content="Diseños personalizados de santitos para Primera Comunión y Bautizo. Formato cuadrado y marcalibro, tipografía script o serifa. Envío a todo Chile.">
+<meta name="keywords" content="santitos primera comunion, santitos bautizo, recuerdos primera comunion chile, diseños personalizados comunion, marcalibros comunion chile">
+<meta property="og:title" content="La Opalina Diseños | Santitos Primera Comunión y Bautizo">
+<meta property="og:description" content="Diseños personalizados de santitos para Primera Comunión y Bautizo. Envío a todo Chile.">
+<meta name="robots" content="index, follow">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--titulo:#E5CAB7;--cafe:#6b4f3a;--cafe-claro:#a07858;--cafe-muy-claro:#f5ede6;--borde:rgba(107,79,58,0.15)}
+body{background:#fff;color:var(--cafe);font-family:'Montserrat',sans-serif;font-weight:300}
+a{color:inherit;text-decoration:none}
+
+/* HEADER */
+header{background:#1a1512;padding:1.25rem 2.5rem;border-bottom:2px solid var(--titulo);display:flex;align-items:center;justify-content:center;gap:1.25rem}
+.logo-img{height:80px;width:auto;object-fit:contain;display:block;flex-shrink:0}
+.header-text{text-align:center}
+header h1{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:800;letter-spacing:0.25em;color:var(--titulo);text-transform:uppercase;line-height:1.1}
+header p.tagline{font-size:0.6rem;letter-spacing:0.55em;color:rgba(229,202,183,0.55);text-transform:uppercase;margin-top:0.25rem}
+
+/* BANNER */
+.banner{position:relative;width:100%;height:450px;overflow:hidden;background:var(--cafe-muy-claro)}
+.banner-track{display:flex;height:100%;transition:transform .5s ease}
+.banner-slide{min-width:100%;height:100%;flex-shrink:0}
+.banner-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.b-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.8);border:none;cursor:pointer;width:34px;height:34px;border-radius:50%;font-size:18px;color:var(--cafe);display:flex;align-items:center;justify-content:center;z-index:10}
+.b-prev{left:12px}.b-next{right:12px}
+.b-dots{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);display:flex;gap:7px}
+.b-dot{width:8px;height:8px;border-radius:50%;border:none;cursor:pointer;background:rgba(255,255,255,0.55);padding:0}
+.b-dot.active{background:#fff}
+
+/* NAV */
+nav{background:#fff;padding:0.85rem;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;border-bottom:1px solid var(--borde);position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(107,79,58,0.08)}
+nav a{font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe-claro);font-weight:500;transition:color .2s}
+nav a:hover{color:var(--cafe)}
+
+/* SECTION */
+section{padding:3.5rem 1.5rem;max-width:960px;margin:0 auto}
+.section-title{font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--titulo);text-align:center;letter-spacing:0.08em;margin-bottom:0.4rem}
+.section-line{width:50px;height:2px;background:var(--titulo);margin:0 auto 2.5rem}
+
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem}
+.step{text-align:center;padding:1.5rem 1rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)}
+.step-num{font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:var(--titulo);line-height:1;margin-bottom:0.6rem}
+.step h3{font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);margin-bottom:0.6rem;font-weight:500}
+.step p{font-size:0.76rem;color:var(--cafe-claro);line-height:1.7}
+.step p strong{color:var(--cafe);font-weight:500}
+
+/* TABS */
+.cat-tabs{display:flex;justify-content:center;gap:0.75rem;margin-bottom:2.5rem}
+.cat-tab{font-size:0.62rem;letter-spacing:0.3em;text-transform:uppercase;padding:0.65rem 2rem;border:1.5px solid var(--titulo);color:var(--cafe);cursor:pointer;transition:all .2s;background:transparent;font-family:'Montserrat',sans-serif}
+.cat-tab.active,.cat-tab:hover{background:var(--titulo);color:#1a1512;font-weight:500}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.25rem}
+.card{background:#fff;border:1px solid var(--borde);overflow:hidden;transition:box-shadow .2s}
+.card:hover{box-shadow:0 4px 20px rgba(107,79,58,0.12)}
+
+/* CAROUSEL */
+.carousel{position:relative;background:var(--cafe-muy-claro);overflow:hidden}
+.c-track{display:flex;transition:transform .35s ease}
+.c-slide{min-width:100%;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#f9f4f0;cursor:zoom-in}
+.c-slide.sq{aspect-ratio:1;max-height:210px}
+.c-slide.ml{aspect-ratio:0.5;max-height:260px}
+.c-slide img{width:100%;height:100%;object-fit:contain}
+.c-slide.ph{flex-direction:column;gap:0.4rem;cursor:default}
+.ph-i{font-size:1.8rem;color:var(--titulo);opacity:0.4}
+.ph-t{font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--cafe-claro)}
+.c-label{background:#fff;border-top:1px solid var(--borde);text-align:center;padding:0.4rem;font-size:0.54rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--cafe);min-height:1.5rem;display:flex;align-items:center;justify-content:center}
+.c-dots{display:flex;justify-content:center;gap:5px;padding:0.35rem 0;background:#fff}
+.c-dot{width:6px;height:6px;border-radius:50%;background:var(--borde);border:none;cursor:pointer;padding:0;transition:background .2s}
+.c-dot.active{background:var(--titulo)}
+.c-prev,.c-next{position:absolute;top:40%;transform:translateY(-50%);background:rgba(255,255,255,0.9);border:none;cursor:pointer;width:26px;height:26px;border-radius:50%;font-size:15px;color:var(--cafe);display:flex;align-items:center;justify-content:center;z-index:5}
+.c-prev{left:4px}.c-next{right:4px}
+.card-body{padding:0.8rem 1rem}
+.card-body h4{font-family:'Playfair Display',serif;font-size:0.9rem;font-weight:700;color:var(--cafe);margin-bottom:0.15rem}
+.card-body p{font-size:0.63rem;color:var(--cafe-claro);letter-spacing:0.1em;text-transform:uppercase}
+
+/* LIGHTBOX */
+.lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:999;align-items:center;justify-content:center}
+.lb.open{display:flex}
+.lb img{max-width:92vw;max-height:92vh;object-fit:contain}
+.lb-x{position:fixed;top:1rem;right:1.25rem;font-size:2.2rem;color:#fff;cursor:pointer;background:none;border:none;line-height:1}
+
+/* REVERSO */
+.reverso{margin-top:2rem;padding:1.5rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)}
+.reverso-txt{font-size:0.75rem;color:var(--cafe);letter-spacing:0.3em;text-transform:uppercase;text-align:center;margin-bottom:1.5rem;font-style:normal;font-weight:500}
+.reverso-imgs{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap}
+.rev-grupo{text-align:center}
+.rev-label{font-size:0.6rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);font-weight:500;margin-bottom:0.75rem;display:block}
+.rev-pair{display:flex;gap:0.75rem;justify-content:center}
+.rev-item{text-align:center}
+.rev-item img{width:110px;border:1px solid var(--borde);cursor:zoom-in;object-fit:contain}
+.rev-item span{display:block;font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--cafe-claro);margin-top:0.35rem}
+
+/* PRECIOS */
+.precios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
+.precio-card{border:1px solid var(--borde);padding:2rem;text-align:center;background:#fff}
+.precio-card.dest{border:2px solid var(--titulo);background:var(--cafe-muy-claro)}
+.p-tipo{font-size:0.6rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--cafe-claro);margin-bottom:1rem;font-weight:500}
+.p-val{font-family:'Montserrat',sans-serif;font-size:2.8rem;font-weight:700;color:var(--cafe);line-height:1}
+.p-sub{font-size:0.72rem;color:var(--cafe-claro);margin-top:0.3rem}
+.p-det{margin-top:1.25rem;border-top:1px solid var(--borde);padding-top:1.25rem;font-size:0.75rem;color:var(--cafe-claro);line-height:2}
+.envio-note{text-align:center;margin-top:2rem;font-size:0.85rem;color:var(--cafe);font-style:italic;font-weight:600}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-top:1.5rem}
+.info-card{border:1px solid var(--borde);padding:1.25rem;text-align:center;background:var(--cafe-muy-claro)}
+.info-card p{font-size:0.75rem;color:var(--cafe-claro);line-height:1.8}
+
+/* ── FORMULARIO DE PEDIDO ── */
+#pedido{background:var(--cafe-muy-claro);border-top:1px solid var(--borde);border-bottom:1px solid var(--borde)}
+.pedido-inner{max-width:720px;margin:0 auto}
+.pedido-intro{text-align:center;font-size:0.8rem;color:var(--cafe-claro);line-height:1.8;margin-bottom:2rem}
+
+/* Grupos de diseño dinámicos */
+.disenos-bloque{display:none}
+.disenos-bloque.visible{display:block}
+
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-group{display:flex;flex-direction:column;gap:0.35rem}
+.form-group.full{grid-column:1/-1}
+.form-label{font-size:0.62rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);font-weight:500}
+.form-control{border:1px solid rgba(107,79,58,0.3);padding:0.7rem 0.9rem;font-family:'Montserrat',sans-serif;font-size:0.82rem;color:var(--cafe);background:#fff;appearance:none;-webkit-appearance:none;outline:none;transition:border-color .2s;width:100%}
+.form-control:focus{border-color:var(--titulo)}
+select.form-control{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b4f3a' d='M6 8L0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 0.9rem center;padding-right:2.2rem}
+
+/* Filas de diseño */
+.diseno-row{display:grid;grid-template-columns:1fr auto;gap:0.75rem;align-items:end;background:#fff;border:1px solid rgba(107,79,58,0.15);padding:0.85rem 1rem;margin-bottom:0.6rem}
+.diseno-row-fields{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;align-items:end}
+.btn-quitar{background:none;border:none;cursor:pointer;color:var(--cafe-claro);font-size:1.1rem;line-height:1;padding:0.2rem 0.4rem;transition:color .2s;align-self:flex-end}
+.btn-quitar:hover{color:#c0392b}
+.btn-agregar{display:inline-flex;align-items:center;gap:0.4rem;background:none;border:1.5px dashed rgba(107,79,58,0.4);color:var(--cafe-claro);font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.55rem 1.2rem;cursor:pointer;font-family:'Montserrat',sans-serif;font-weight:500;transition:all .2s;margin-top:0.25rem}
+.btn-agregar:hover{border-color:var(--titulo);color:var(--cafe)}
+
+/* Resumen cantidades */
+.cant-resumen{margin-top:1rem;padding:0.85rem 1rem;background:#fff;border:1px solid rgba(107,79,58,0.15);font-size:0.75rem;color:var(--cafe-claro);line-height:1.8}
+.cant-resumen strong{color:var(--cafe)}
+.cant-error{color:#c0392b;font-size:0.72rem;margin-top:0.4rem;display:none}
+
+/* Sección */
+.pedido-seccion{margin-bottom:1.75rem}
+.pedido-seccion-title{font-size:0.65rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--cafe);font-weight:500;border-bottom:1px solid rgba(107,79,58,0.15);padding-bottom:0.5rem;margin-bottom:1rem}
+
+/* Botón enviar */
+.btn-enviar{width:100%;display:flex;align-items:center;justify-content:center;gap:0.75rem;background:#25d366;color:#fff;font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;padding:1.1rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:background .2s;margin-top:0.5rem}
+.btn-enviar:hover{background:#1ebe5d}
+.btn-enviar svg{width:20px;height:20px;fill:#fff;flex-shrink:0}
+.btn-enviar:disabled{background:#aaa;cursor:not-allowed}
+.form-nota{font-size:0.68rem;color:var(--cafe-claro);text-align:center;margin-top:0.75rem;line-height:1.7}
+
+/* Radio género */
+.genero-tabs{display:flex;gap:0.75rem;margin-bottom:1.5rem}
+.gtab{flex:1;text-align:center;padding:0.75rem;border:1.5px solid var(--titulo);cursor:pointer;font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);transition:all .2s;font-family:'Montserrat',sans-serif;font-weight:500;user-select:none}
+.gtab.active{background:var(--titulo);color:#1a1512}
+
+/* CONTACTO */
+.contacto-box{border:1px solid var(--borde);padding:2.5rem;text-align:center;max-width:480px;margin:0 auto;background:var(--cafe-muy-claro)}
+.contacto-box>p{font-size:0.8rem;color:var(--cafe-claro);line-height:1.8;margin-bottom:1.75rem}
+.c-btns{display:flex;flex-direction:column;align-items:center;gap:0.75rem}
+.btn-wsp{display:inline-flex;align-items:center;gap:0.6rem;background:#25d366;color:#fff;font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.9rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:background .2s}
+.btn-wsp:hover{background:#1ebe5d}
+.btn-wsp svg,.btn-ig svg{width:18px;height:18px;flex-shrink:0}
+.btn-wsp svg{fill:#fff}
+.btn-ig{display:inline-flex;align-items:center;gap:0.6rem;background:#1a1512;color:var(--titulo);font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.9rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:opacity .2s}
+.btn-ig:hover{opacity:0.8}
+.btn-ig svg{fill:var(--titulo)}
+.c-tel{margin-top:1.25rem;font-size:0.75rem;color:var(--cafe-claro);letter-spacing:0.05em}
+.c-tel strong{color:var(--cafe);font-weight:500}
+
+footer{background:#1a1512;padding:2rem 1.5rem;text-align:center;font-size:0.62rem;letter-spacing:0.2em;color:rgba(229,202,183,0.4);text-transform:uppercase}
+.wsp-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;background:#25d366;border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.2);cursor:pointer;transition:transform .2s}
+.wsp-float:hover{transform:scale(1.08)}
+.wsp-float svg{width:28px;height:28px;fill:#fff}
+hr.div{border:none;border-top:1px solid var(--borde);margin:0}
+.panel{display:none}.panel.active{display:block}
+
+@media(max-width:600px){
+  header{padding:1rem 1.25rem;gap:1rem}
+  .logo-img{height:60px}
+  header h1{font-size:1.3rem;letter-spacing:0.15em}
+  nav{gap:0.8rem;padding:0.6rem 0.5rem}
+  nav a{font-size:0.6rem}
+  section{padding:2.5rem 1rem}
+  .section-title{font-size:1.5rem}
+  .steps{grid-template-columns:1fr 1fr}
+  .grid{grid-template-columns:1fr 1fr;gap:0.75rem}
+  .banner{height:220px}
+  .precios-grid,.info-grid{grid-template-columns:1fr}
+  .rev-item img{width:85px}
+  .contacto-box{padding:1.5rem 1rem}
+  .wsp-float{width:46px;height:46px;bottom:1rem;right:1rem}
+  .form-grid{grid-template-columns:1fr}
+  .diseno-row{grid-template-columns:1fr auto}
+  .diseno-row-fields{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="es"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1">&lt;title&gt;La Opalina Diseños | Santitos Primera Comunión y Bautizo en Chile&lt;/title&gt;</p>
-<p class="p1">&lt;meta name="description" content="Diseños personalizados de santitos para Primera Comunión y Bautizo. Formato cuadrado y marcalibro, tipografía script o serifa. Envío a todo Chile."&gt;</p>
-<p class="p1">&lt;meta name="keywords" content="santitos primera comunion, santitos bautizo, recuerdos primera comunion chile, diseños personalizados comunion, marcalibros comunion chile"&gt;</p>
-<p class="p1">&lt;meta property="og:title" content="La Opalina Diseños | Santitos Primera Comunión y Bautizo"&gt;</p>
-<p class="p1">&lt;meta property="og:description" content="Diseños personalizados de santitos para Primera Comunión y Bautizo. Envío a todo Chile."&gt;</p>
-<p class="p1">&lt;meta name="robots" content="index, follow"&gt;</p>
-<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">*{margin:0;padding:0;box-sizing:border-box}</p>
-<p class="p1">:root{--titulo:#E5CAB7;--cafe:#6b4f3a;--cafe-claro:#a07858;--cafe-muy-claro:#f5ede6;--borde:rgba(107,79,58,0.15)}</p>
-<p class="p1">body{background:#fff;color:var(--cafe);font-family:'Montserrat',sans-serif;font-weight:300}</p>
-<p class="p1">a{color:inherit;text-decoration:none}</p>
-<p class="p2"><br></p>
-<p class="p1">/* HEADER */</p>
-<p class="p1">header{background:#1a1512;padding:1.25rem 2.5rem;border-bottom:2px solid var(--titulo);display:flex;align-items:center;justify-content:center;gap:1.25rem}</p>
-<p class="p1">.logo-img{height:80px;width:auto;object-fit:contain;display:block;flex-shrink:0}</p>
-<p class="p1">.header-text{text-align:center}</p>
-<p class="p1">header h1{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:800;letter-spacing:0.25em;color:var(--titulo);text-transform:uppercase;line-height:1.1}</p>
-<p class="p1">header p.tagline{font-size:0.6rem;letter-spacing:0.55em;color:rgba(229,202,183,0.55);text-transform:uppercase;margin-top:0.25rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* BANNER */</p>
-<p class="p1">.banner{position:relative;width:100%;height:450px;overflow:hidden;background:var(--cafe-muy-claro)}</p>
-<p class="p1">.banner-track{display:flex;height:100%;transition:transform .5s ease}</p>
-<p class="p1">.banner-slide{min-width:100%;height:100%;flex-shrink:0}</p>
-<p class="p1">.banner-slide img{width:100%;height:100%;object-fit:cover;display:block}</p>
-<p class="p1">.b-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.8);border:none;cursor:pointer;width:34px;height:34px;border-radius:50%;font-size:18px;color:var(--cafe);display:flex;align-items:center;justify-content:center;z-index:10}</p>
-<p class="p1">.b-prev{left:12px}.b-next{right:12px}</p>
-<p class="p1">.b-dots{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);display:flex;gap:7px}</p>
-<p class="p1">.b-dot{width:8px;height:8px;border-radius:50%;border:none;cursor:pointer;background:rgba(255,255,255,0.55);padding:0}</p>
-<p class="p1">.b-dot.active{background:#fff}</p>
-<p class="p2"><br></p>
-<p class="p1">/* NAV */</p>
-<p class="p1">nav{background:#fff;padding:0.85rem;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;border-bottom:1px solid var(--borde);position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(107,79,58,0.08)}</p>
-<p class="p1">nav a{font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe-claro);font-weight:500;transition:color .2s}</p>
-<p class="p1">nav a:hover{color:var(--cafe)}</p>
-<p class="p2"><br></p>
-<p class="p1">/* SECTION */</p>
-<p class="p1">section{padding:3.5rem 1.5rem;max-width:960px;margin:0 auto}</p>
-<p class="p1">.section-title{font-family:'Playfair Display',serif;font-size:2rem;font-weight:800;color:var(--titulo);text-align:center;letter-spacing:0.08em;margin-bottom:0.4rem}</p>
-<p class="p1">.section-line{width:50px;height:2px;background:var(--titulo);margin:0 auto 2.5rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* STEPS */</p>
-<p class="p1">.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem}</p>
-<p class="p1">.step{text-align:center;padding:1.5rem 1rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)}</p>
-<p class="p1">.step-num{font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:var(--titulo);line-height:1;margin-bottom:0.6rem}</p>
-<p class="p1">.step h3{font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);margin-bottom:0.6rem;font-weight:500}</p>
-<p class="p1">.step p{font-size:0.76rem;color:var(--cafe-claro);line-height:1.7}</p>
-<p class="p1">.step p strong{color:var(--cafe);font-weight:500}</p>
-<p class="p2"><br></p>
-<p class="p1">/* TABS */</p>
-<p class="p1">.cat-tabs{display:flex;justify-content:center;gap:0.75rem;margin-bottom:2.5rem}</p>
-<p class="p1">.cat-tab{font-size:0.62rem;letter-spacing:0.3em;text-transform:uppercase;padding:0.65rem 2rem;border:1.5px solid var(--titulo);color:var(--cafe);cursor:pointer;transition:all .2s;background:transparent;font-family:'Montserrat',sans-serif}</p>
-<p class="p1">.cat-tab.active,.cat-tab:hover{background:var(--titulo);color:#1a1512;font-weight:500}</p>
-<p class="p2"><br></p>
-<p class="p1">/* GRID */</p>
-<p class="p1">.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1.25rem}</p>
-<p class="p1">.card{background:#fff;border:1px solid var(--borde);overflow:hidden;transition:box-shadow .2s}</p>
-<p class="p1">.card:hover{box-shadow:0 4px 20px rgba(107,79,58,0.12)}</p>
-<p class="p2"><br></p>
-<p class="p1">/* CAROUSEL */</p>
-<p class="p1">.carousel{position:relative;background:var(--cafe-muy-claro);overflow:hidden}</p>
-<p class="p1">.c-track{display:flex;transition:transform .35s ease}</p>
-<p class="p1">.c-slide{min-width:100%;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:#f9f4f0;cursor:zoom-in}</p>
-<p class="p1">.c-slide.sq{aspect-ratio:1;max-height:210px}</p>
-<p class="p1">.c-slide.ml{aspect-ratio:0.5;max-height:260px}</p>
-<p class="p1">.c-slide img{width:100%;height:100%;object-fit:contain}</p>
-<p class="p1">.c-slide.ph{flex-direction:column;gap:0.4rem;cursor:default}</p>
-<p class="p1">.ph-i{font-size:1.8rem;color:var(--titulo);opacity:0.4}</p>
-<p class="p1">.ph-t{font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--cafe-claro)}</p>
-<p class="p1">.c-label{background:#fff;border-top:1px solid var(--borde);text-align:center;padding:0.4rem;font-size:0.54rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--cafe);min-height:1.5rem;display:flex;align-items:center;justify-content:center}</p>
-<p class="p1">.c-dots{display:flex;justify-content:center;gap:5px;padding:0.35rem 0;background:#fff}</p>
-<p class="p1">.c-dot{width:6px;height:6px;border-radius:50%;background:var(--borde);border:none;cursor:pointer;padding:0;transition:background .2s}</p>
-<p class="p1">.c-dot.active{background:var(--titulo)}</p>
-<p class="p1">.c-prev,.c-next{position:absolute;top:40%;transform:translateY(-50%);background:rgba(255,255,255,0.9);border:none;cursor:pointer;width:26px;height:26px;border-radius:50%;font-size:15px;color:var(--cafe);display:flex;align-items:center;justify-content:center;z-index:5}</p>
-<p class="p1">.c-prev{left:4px}.c-next{right:4px}</p>
-<p class="p1">.card-body{padding:0.8rem 1rem}</p>
-<p class="p1">.card-body h4{font-family:'Playfair Display',serif;font-size:0.9rem;font-weight:700;color:var(--cafe);margin-bottom:0.15rem}</p>
-<p class="p1">.card-body p{font-size:0.63rem;color:var(--cafe-claro);letter-spacing:0.1em;text-transform:uppercase}</p>
-<p class="p2"><br></p>
-<p class="p1">/* LIGHTBOX */</p>
-<p class="p1">.lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:999;align-items:center;justify-content:center}</p>
-<p class="p1">.lb.open{display:flex}</p>
-<p class="p1">.lb img{max-width:92vw;max-height:92vh;object-fit:contain}</p>
-<p class="p1">.lb-x{position:fixed;top:1rem;right:1.25rem;font-size:2.2rem;color:#fff;cursor:pointer;background:none;border:none;line-height:1}</p>
-<p class="p2"><br></p>
-<p class="p1">/* REVERSO */</p>
-<p class="p1">.reverso{margin-top:2rem;padding:1.5rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)}</p>
-<p class="p1">.reverso-txt{font-size:0.75rem;color:var(--cafe);letter-spacing:0.3em;text-transform:uppercase;text-align:center;margin-bottom:1.5rem;font-style:normal;font-weight:500}</p>
-<p class="p1">.reverso-imgs{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap}</p>
-<p class="p1">.rev-grupo{text-align:center}</p>
-<p class="p1">.rev-label{font-size:0.6rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);font-weight:500;margin-bottom:0.75rem;display:block}</p>
-<p class="p1">.rev-pair{display:flex;gap:0.75rem;justify-content:center}</p>
-<p class="p1">.rev-item{text-align:center}</p>
-<p class="p1">.rev-item img{width:110px;border:1px solid var(--borde);cursor:zoom-in;object-fit:contain}</p>
-<p class="p1">.rev-item span{display:block;font-size:0.58rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--cafe-claro);margin-top:0.35rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* PRECIOS */</p>
-<p class="p1">.precios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}</p>
-<p class="p1">.precio-card{border:1px solid var(--borde);padding:2rem;text-align:center;background:#fff}</p>
-<p class="p1">.precio-card.dest{border:2px solid var(--titulo);background:var(--cafe-muy-claro)}</p>
-<p class="p1">.p-tipo{font-size:0.6rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--cafe-claro);margin-bottom:1rem;font-weight:500}</p>
-<p class="p1">.p-val{font-family:'Montserrat',sans-serif;font-size:2.8rem;font-weight:700;color:var(--cafe);line-height:1}</p>
-<p class="p1">.p-sub{font-size:0.72rem;color:var(--cafe-claro);margin-top:0.3rem}</p>
-<p class="p1">.p-det{margin-top:1.25rem;border-top:1px solid var(--borde);padding-top:1.25rem;font-size:0.75rem;color:var(--cafe-claro);line-height:2}</p>
-<p class="p1">.envio-note{text-align:center;margin-top:2rem;font-size:0.85rem;color:var(--cafe);font-style:italic;font-weight:600}</p>
-<p class="p1">.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-top:1.5rem}</p>
-<p class="p1">.info-card{border:1px solid var(--borde);padding:1.25rem;text-align:center;background:var(--cafe-muy-claro)}</p>
-<p class="p1">.info-card p{font-size:0.75rem;color:var(--cafe-claro);line-height:1.8}</p>
-<p class="p2"><br></p>
-<p class="p1">/* ── FORMULARIO DE PEDIDO ── */</p>
-<p class="p1">#pedido{background:var(--cafe-muy-claro);border-top:1px solid var(--borde);border-bottom:1px solid var(--borde)}</p>
-<p class="p1">.pedido-inner{max-width:720px;margin:0 auto}</p>
-<p class="p1">.pedido-intro{text-align:center;font-size:0.8rem;color:var(--cafe-claro);line-height:1.8;margin-bottom:2rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Grupos de diseño dinámicos */</p>
-<p class="p1">.disenos-bloque{display:none}</p>
-<p class="p1">.disenos-bloque.visible{display:block}</p>
-<p class="p2"><br></p>
-<p class="p1">.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}</p>
-<p class="p1">.form-group{display:flex;flex-direction:column;gap:0.35rem}</p>
-<p class="p1">.form-group.full{grid-column:1/-1}</p>
-<p class="p1">.form-label{font-size:0.62rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);font-weight:500}</p>
-<p class="p1">.form-control{border:1px solid rgba(107,79,58,0.3);padding:0.7rem 0.9rem;font-family:'Montserrat',sans-serif;font-size:0.82rem;color:var(--cafe);background:#fff;appearance:none;-webkit-appearance:none;outline:none;transition:border-color .2s;width:100%}</p>
-<p class="p1">.form-control:focus{border-color:var(--titulo)}</p>
-<p class="p1">select.form-control{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b4f3a' d='M6 8L0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 0.9rem center;padding-right:2.2rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Filas de diseño */</p>
-<p class="p1">.diseno-row{display:grid;grid-template-columns:1fr auto;gap:0.75rem;align-items:end;background:#fff;border:1px solid rgba(107,79,58,0.15);padding:0.85rem 1rem;margin-bottom:0.6rem}</p>
-<p class="p1">.diseno-row-fields{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;align-items:end}</p>
-<p class="p1">.btn-quitar{background:none;border:none;cursor:pointer;color:var(--cafe-claro);font-size:1.1rem;line-height:1;padding:0.2rem 0.4rem;transition:color .2s;align-self:flex-end}</p>
-<p class="p1">.btn-quitar:hover{color:#c0392b}</p>
-<p class="p1">.btn-agregar{display:inline-flex;align-items:center;gap:0.4rem;background:none;border:1.5px dashed rgba(107,79,58,0.4);color:var(--cafe-claro);font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.55rem 1.2rem;cursor:pointer;font-family:'Montserrat',sans-serif;font-weight:500;transition:all .2s;margin-top:0.25rem}</p>
-<p class="p1">.btn-agregar:hover{border-color:var(--titulo);color:var(--cafe)}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Resumen cantidades */</p>
-<p class="p1">.cant-resumen{margin-top:1rem;padding:0.85rem 1rem;background:#fff;border:1px solid rgba(107,79,58,0.15);font-size:0.75rem;color:var(--cafe-claro);line-height:1.8}</p>
-<p class="p1">.cant-resumen strong{color:var(--cafe)}</p>
-<p class="p1">.cant-error{color:#c0392b;font-size:0.72rem;margin-top:0.4rem;display:none}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Sección */</p>
-<p class="p1">.pedido-seccion{margin-bottom:1.75rem}</p>
-<p class="p1">.pedido-seccion-title{font-size:0.65rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--cafe);font-weight:500;border-bottom:1px solid rgba(107,79,58,0.15);padding-bottom:0.5rem;margin-bottom:1rem}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Botón enviar */</p>
-<p class="p1">.btn-enviar{width:100%;display:flex;align-items:center;justify-content:center;gap:0.75rem;background:#25d366;color:#fff;font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;padding:1.1rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:background .2s;margin-top:0.5rem}</p>
-<p class="p1">.btn-enviar:hover{background:#1ebe5d}</p>
-<p class="p1">.btn-enviar svg{width:20px;height:20px;fill:#fff;flex-shrink:0}</p>
-<p class="p1">.btn-enviar:disabled{background:#aaa;cursor:not-allowed}</p>
-<p class="p1">.form-nota{font-size:0.68rem;color:var(--cafe-claro);text-align:center;margin-top:0.75rem;line-height:1.7}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Radio género */</p>
-<p class="p1">.genero-tabs{display:flex;gap:0.75rem;margin-bottom:1.5rem}</p>
-<p class="p1">.gtab{flex:1;text-align:center;padding:0.75rem;border:1.5px solid var(--titulo);cursor:pointer;font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--cafe);transition:all .2s;font-family:'Montserrat',sans-serif;font-weight:500;user-select:none}</p>
-<p class="p1">.gtab.active{background:var(--titulo);color:#1a1512}</p>
-<p class="p2"><br></p>
-<p class="p1">/* CONTACTO */</p>
-<p class="p1">.contacto-box{border:1px solid var(--borde);padding:2.5rem;text-align:center;max-width:480px;margin:0 auto;background:var(--cafe-muy-claro)}</p>
-<p class="p1">.contacto-box&gt;p{font-size:0.8rem;color:var(--cafe-claro);line-height:1.8;margin-bottom:1.75rem}</p>
-<p class="p1">.c-btns{display:flex;flex-direction:column;align-items:center;gap:0.75rem}</p>
-<p class="p1">.btn-wsp{display:inline-flex;align-items:center;gap:0.6rem;background:#25d366;color:#fff;font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.9rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:background .2s}</p>
-<p class="p1">.btn-wsp:hover{background:#1ebe5d}</p>
-<p class="p1">.btn-wsp svg,.btn-ig svg{width:18px;height:18px;flex-shrink:0}</p>
-<p class="p1">.btn-wsp svg{fill:#fff}</p>
-<p class="p1">.btn-ig{display:inline-flex;align-items:center;gap:0.6rem;background:#1a1512;color:var(--titulo);font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;padding:0.9rem 2rem;font-family:'Montserrat',sans-serif;font-weight:500;border:none;cursor:pointer;transition:opacity .2s}</p>
-<p class="p1">.btn-ig:hover{opacity:0.8}</p>
-<p class="p1">.btn-ig svg{fill:var(--titulo)}</p>
-<p class="p1">.c-tel{margin-top:1.25rem;font-size:0.75rem;color:var(--cafe-claro);letter-spacing:0.05em}</p>
-<p class="p1">.c-tel strong{color:var(--cafe);font-weight:500}</p>
-<p class="p2"><br></p>
-<p class="p1">footer{background:#1a1512;padding:2rem 1.5rem;text-align:center;font-size:0.62rem;letter-spacing:0.2em;color:rgba(229,202,183,0.4);text-transform:uppercase}</p>
-<p class="p1">.wsp-float{position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;background:#25d366;border-radius:50%;width:52px;height:52px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.2);cursor:pointer;transition:transform .2s}</p>
-<p class="p1">.wsp-float:hover{transform:scale(1.08)}</p>
-<p class="p1">.wsp-float svg{width:28px;height:28px;fill:#fff}</p>
-<p class="p1">hr.div{border:none;border-top:1px solid var(--borde);margin:0}</p>
-<p class="p1">.panel{display:none}.panel.active{display:block}</p>
-<p class="p2"><br></p>
-<p class="p1">@media(max-width:600px){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>header{padding:1rem 1.25rem;gap:1rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.logo-img{height:60px}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>header h1{font-size:1.3rem;letter-spacing:0.15em}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>nav{gap:0.8rem;padding:0.6rem 0.5rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>nav a{font-size:0.6rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>section{padding:2.5rem 1rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.section-title{font-size:1.5rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.steps{grid-template-columns:1fr 1fr}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.grid{grid-template-columns:1fr 1fr;gap:0.75rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.banner{height:220px}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.precios-grid,.info-grid{grid-template-columns:1fr}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.rev-item img{width:85px}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.contacto-box{padding:1.5rem 1rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.wsp-float{width:46px;height:46px;bottom:1rem;right:1rem}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.form-grid{grid-template-columns:1fr}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.diseno-row{grid-template-columns:1fr auto}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>.diseno-row-fields{grid-template-columns:1fr}</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- LIGHTBOX --&gt;</p>
-<p class="p1">&lt;div class="lb" id="lb" onclick="lbClose()"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="lb-x" onclick="lbClose()"&gt;×&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;img id="lb-img" src="" alt=""&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- HEADER --&gt;</p>
-<p class="p1">&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;img class="logo-img" src="fotos/logo.jpg" alt="La Opalina" onerror="this.style.display='none'"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="header-text"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;La Opalina&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="tagline"&gt;Diseños&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- BANNER --&gt;</p>
-<p class="p1">&lt;div class="banner" id="banner"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="banner-track" id="btrack"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="banner-slide"&gt;&lt;img src="banner1.jpg" alt=""&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="banner-slide"&gt;&lt;img src="banner2.jpg" alt=""&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="banner-slide"&gt;&lt;img src="banner3.jpg" alt=""&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="b-btn b-prev" onclick="bGo(-1)"&gt;&amp;#8249;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="b-btn b-next" onclick="bGo(1)"&gt;&amp;#8250;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="b-dots"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="b-dot active" onclick="bSet(0)"&gt;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="b-dot" onclick="bSet(1)"&gt;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="b-dot" onclick="bSet(2)"&gt;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- NAV --&gt;</p>
-<p class="p1">&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#como-pedir"&gt;¿Cómo pedir?&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#comunion"&gt;Primera Comunión&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#bautizo"&gt;Bautizo&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#precios"&gt;Precios&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#pedido"&gt;Hacer pedido&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#contacto"&gt;Contacto&lt;/a&gt;</p>
-<p class="p1">&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- COMO PEDIR --&gt;</p>
-<p class="p1">&lt;section id="como-pedir"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="section-title"&gt;¿Cómo pedir?&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="steps"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="step"&gt;&lt;div class="step-num"&gt;01&lt;/div&gt;&lt;h3&gt;Elige el diseño&lt;/h3&gt;&lt;p&gt;Selecciona entre nuestros diseños para niña o niño.&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="step"&gt;&lt;div class="step-num"&gt;02&lt;/div&gt;&lt;h3&gt;Elige el formato&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Cuadrado 10×10 cm&lt;/strong&gt; impreso por ambos lados, o &lt;strong&gt;Marcalibro 7×15 cm&lt;/strong&gt; impreso por 1 lado.&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="step"&gt;&lt;div class="step-num"&gt;03&lt;/div&gt;&lt;h3&gt;Elige la tipografía&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Script&lt;/strong&gt; (cursiva elegante) o &lt;strong&gt;Serifa&lt;/strong&gt; (clásica y formal).&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="step"&gt;&lt;div class="step-num"&gt;04&lt;/div&gt;&lt;h3&gt;Personaliza&lt;/h3&gt;&lt;p&gt;Nombre (primer nombre + 2 apellidos), fecha de la ceremonia y lugar del evento.&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;hr class="div"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- PRIMERA COMUNION --&gt;</p>
-<p class="p1">&lt;section id="comunion"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="section-title"&gt;Primera Comunión&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="cat-tabs"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cat-tab active" onclick="showTab('nino')"&gt;Niño&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cat-tab" onclick="showTab('nina')"&gt;Niña&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="panel active" id="panel-nino"&gt;&lt;div class="grid" id="grid-nino"&gt;&lt;/div&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="panel" id="panel-nina"&gt;&lt;div class="grid" id="grid-nina"&gt;&lt;/div&gt;&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="reverso"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="reverso-txt"&gt;Reverso Formato Cuadrado&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="reverso-imgs"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="rev-grupo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="rev-label"&gt;Reverso Niño&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="rev-pair"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="rev-item"&gt;&lt;img src="nino-retiro-sq-script.jpg" alt="" onclick="lbOpen(this.src)"&gt;&lt;span&gt;Script&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="rev-item"&gt;&lt;img src="nino-retiro-sq-serif.jpg" alt="" onclick="lbOpen(this.src)"&gt;&lt;span&gt;Serifa&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="rev-grupo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="rev-label"&gt;Reverso Niña&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="rev-pair"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="rev-item"&gt;&lt;img src="nina-retiro-sq-script.jpg" alt="" onclick="lbOpen(this.src)"&gt;&lt;span&gt;Script&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="rev-item"&gt;&lt;img src="nina-retiro-sq-serif.jpg" alt="" onclick="lbOpen(this.src)"&gt;&lt;span&gt;Serifa&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;hr class="div"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- BAUTIZO --&gt;</p>
-<p class="p1">&lt;section id="bautizo"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="section-title"&gt;Bautizo&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div style="text-align:center;padding:3rem 1rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--titulo)"&gt;Próximamente&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p style="font-size:0.75rem;color:var(--cafe-claro);margin-top:0.6rem"&gt;Estamos preparando los diseños de bautizo. ¡Escríbenos para más información!&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;hr class="div"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- PRECIOS --&gt;</p>
-<p class="p1">&lt;section id="precios"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="section-title"&gt;Precios&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="precios-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="precio-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="p-tipo"&gt;Marcalibro · 7×15 cm&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="p-val"&gt;$24.000&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="p-sub"&gt;las 24 unidades · $1.000 c/u&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="p-det"&gt;Impreso por 1 lado&lt;br&gt;Pedido mínimo: 24 unidades&lt;br&gt;Mínimo por diseño: 6 unidades&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="precio-card dest"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="p-tipo"&gt;Cuadrado · 10×10 cm&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="p-val"&gt;$26.400&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="p-sub"&gt;las 24 unidades · $1.100 c/u&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="p-det"&gt;Impreso por ambos lados&lt;br&gt;Pedido mínimo: 24 unidades&lt;br&gt;Mínimo por diseño: 6 unidades&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="info-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="info-card"&gt;&lt;p class="p-tipo"&gt;Pago&lt;/p&gt;&lt;p&gt;Transferencia bancaria.&lt;br&gt;Pedido se confirma al recibir el pago.&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="info-card"&gt;&lt;p class="p-tipo"&gt;Elaboración&lt;/p&gt;&lt;p&gt;7 días hábiles.&lt;br&gt;Pide con anticipación.&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="info-card"&gt;&lt;p class="p-tipo"&gt;Despacho&lt;/p&gt;&lt;p&gt;RM: 1–2 días hábiles&lt;br&gt;Regiones centrales: 3–5 días hábiles&lt;br&gt;&lt;em&gt;Tiempos adicionales al de fabricación. Regiones lejanas, consultar.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="envio-note"&gt;* Envío con costo adicional. Consulta por tu comuna o región vía WhatsApp.&lt;/p&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;hr class="div"&gt;</p>
-<p class="p2"><br></p>
-<p class="p3"><span class="s1">&lt;!-- </span>═══════════════════════════════════════</p>
-<p class="p1"><span class="Apple-converted-space">     </span>FORMULARIO DE PEDIDO</p>
-<p class="p3">════════════════════════════════════════<span class="s1"> --&gt;</span></p>
-<p class="p1">&lt;section id="pedido" style="padding:3.5rem 1.5rem"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="pedido-inner"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="section-title"&gt;Hacer pedido&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="pedido-intro"&gt;Completa el formulario y te generamos el mensaje listo para enviar por WhatsApp.&lt;br&gt;Pedido mínimo: &lt;strong&gt;24 unidades&lt;/strong&gt; · Mínimo por diseño: &lt;strong&gt;6 unidades&lt;/strong&gt;.&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 1. GÉNERO --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="pedido-seccion"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="pedido-seccion-title"&gt;1 · ¿Es niño o niña?&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="genero-tabs"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gtab active" id="gtab-nino" onclick="setGenero('nino')"&gt;Niño&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gtab" id="gtab-nina" onclick="setGenero('nina')"&gt;Niña&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 2. DISEÑOS --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="pedido-seccion"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="pedido-seccion-title"&gt;2 · Diseño(s), formato, tipografía y cantidad&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- Diseños Niño --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="disenos-bloque visible" id="bloque-nino"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="filas-nino"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn-agregar" onclick="agregarFila('nino')"&gt;+ Agregar otro diseño&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- Diseños Niña --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="disenos-bloque" id="bloque-nina"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="filas-nina"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn-agregar" onclick="agregarFila('nina')"&gt;+ Agregar otro diseño&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cant-resumen" id="cant-resumen"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>Total: &lt;strong id="cant-total"&gt;0&lt;/strong&gt; unidades</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span id="cant-precio"&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cant-error" id="cant-error"&gt;<span class="s2">⚠</span> El total debe ser mínimo 24 unidades y cada diseño debe tener al menos 6.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 3. DATOS DEL NIÑO/A --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="pedido-seccion"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="pedido-seccion-title"&gt;3 · Datos de personalización&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group full"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Nombre completo del niño/a &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-nombre-nino" type="text" placeholder="Primer nombre y dos apellidos"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Fecha de la ceremonia &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-fecha" type="text" placeholder="ej. 14 de junio de 2025"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Lugar del evento &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-lugar" type="text" placeholder="ej. Iglesia San Francisco, Santiago"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- 4. DATOS DEL CLIENTE --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="pedido-seccion"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="pedido-seccion-title"&gt;4 · Tus datos de contacto y despacho&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="form-grid"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Tu nombre &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-cliente-nombre" type="text" placeholder="Nombre y apellido"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Tu teléfono &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-cliente-tel" type="tel" placeholder="+56 9 XXXX XXXX"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group full"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Dirección de despacho &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-direccion" type="text" placeholder="Calle, número, depto/casa"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group full"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label class="form-label"&gt;Comuna &lt;span style="color:#c0392b"&gt;*&lt;/span&gt;&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="form-control" id="f-comuna" type="text" placeholder="ej. Las Condes" oninput="calcularEnvio()"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group full" id="envio-box" style="display:none"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div id="envio-resultado" style="padding:0.8rem 1rem;font-size:0.8rem;border:1px solid var(--borde);background:#fff;color:var(--cafe)"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- BOTÓN --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="btn-enviar" id="btn-enviar" onclick="enviarPedido()"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;svg viewBox="0 0 24 24"&gt;&lt;path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/&gt;&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>Enviar pedido por WhatsApp</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="form-nota"&gt;Al hacer clic se abrirá WhatsApp con tu pedido pre-armado.&lt;br&gt;El pedido se confirma una vez recibido el pago por transferencia.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;hr class="div"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- CONTACTO --&gt;</p>
-<p class="p1">&lt;section id="contacto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="section-title"&gt;Contacto&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="section-line"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="contacto-box"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;¿Tienes dudas o estás lista/o para pedir?&lt;br&gt;Escríbenos directamente y con gusto te ayudamos.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="c-btns"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="btn-wsp" href="https://wa.me/56984198431" target="_blank"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;svg viewBox="0 0 24 24"&gt;&lt;path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/&gt;&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>WhatsApp · Cata</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="btn-ig" href="https://instagram.com/laopalina_" target="_blank"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;svg viewBox="0 0 24 24"&gt;&lt;path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/&gt;&lt;/svg&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@laopalina_</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="c-tel"&gt;También puedes escribirnos al &lt;strong&gt;+56 9 8419 8431&lt;/strong&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;footer&gt;&lt;p&gt;© 2025 La Opalina Diseños · Todos los derechos reservados&lt;/p&gt;&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;a class="wsp-float" href="https://wa.me/56984198431" target="_blank"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;svg viewBox="0 0 24 24"&gt;&lt;path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/&gt;&lt;/svg&gt;</p>
-<p class="p1">&lt;/a&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">// ── LIGHTBOX ──────────────────────────────────────</p>
-<p class="p1">function lbOpen(src){document.getElementById('lb-img').src=src;document.getElementById('lb').classList.add('open');}</p>
-<p class="p1">function lbClose(){document.getElementById('lb').classList.remove('open');}</p>
-<p class="p1">document.addEventListener('keydown',function(e){if(e.key==='Escape')lbClose();});</p>
-<p class="p2"><br></p>
-<p class="p1">// ── BANNER ────────────────────────────────────────</p>
-<p class="p1">var bc=0;</p>
-<p class="p1">function bSet(i){bc=i;var t=document.getElementById('btrack');if(t)t.style.transform='translateX(-'+i*100+'%)';document.querySelectorAll('.b-dot').forEach(function(d,j){d.classList.toggle('active',j===bc);});}</p>
-<p class="p1">function bGo(dir){bSet((bc+dir+3)%3);}</p>
-<p class="p1">setInterval(function(){bGo(1);},4000);</p>
-<p class="p1">var bEl=document.getElementById('banner');</p>
-<p class="p1">if(bEl){var bsx=0;bEl.addEventListener('touchstart',function(e){bsx=e.touches[0].clientX;},{passive:true});bEl.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-bsx;if(Math.abs(dx)&gt;40)bGo(dx&lt;0?1:-1);},{passive:true});}</p>
-<p class="p2"><br></p>
-<p class="p1">// ── DESIGNS DATA ──────────────────────────────────</p>
-<p class="p1">var f='';</p>
-<p class="p1">var ninosData=[</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Espíritu Santo',s:[{l:'Marcalibro · Script',p:f+'nino-espiritusanto-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-espiritusanto-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-espiritusanto-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-espiritusanto-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-espiritusanto-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-espiritusanto-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Inicial Verde',s:[{l:'Marcalibro · Script',p:f+'nino-inicialverde-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-inicialverde-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-inicialverde-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-inicialverde-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-inicialverde-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-inicialverde-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Inicial Hojas',s:[{l:'Marcalibro · Script',p:f+'nino-inicialhojas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-inicialhojas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-inicialhojas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-inicialhojas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-inicialhojas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-inicialhojas-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Iglesia',s:[{l:'Marcalibro · Script',p:f+'nino-iglesia-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-iglesia-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-iglesia-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-iglesia-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-iglesia-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-iglesia-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cáliz',s:[{l:'Marcalibro · Script',p:f+'nino-caliz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-caliz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-caliz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-caliz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-caliz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-caliz-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Bosque',s:[{l:'Marcalibro · Script',p:f+'nino-cruzbosque-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruzbosque-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruzbosque-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruzbosque-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruzbosque-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruzbosque-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Libélulas',s:[{l:'Marcalibro · Script',p:f+'nino-cruzlibelulas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruzlibelulas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruzlibelulas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruzlibelulas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruzlibelulas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruzlibelulas-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz',s:[{l:'Marcalibro · Script',p:f+'nino-cruz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruz-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Insectos',s:[{l:'Marcalibro · Script',p:f+'nino-insectos-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-insectos-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-insectos-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-insectos-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-insectos-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-insectos-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1">];</p>
-<p class="p1">var ninasData=[</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Espíritu Santo',s:[{l:'Marcalibro · Script',p:f+'nina-espiritusanto-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-espiritusanto-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-espiritusanto-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-espiritusanto-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-espiritusanto-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-espiritusanto-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Espíritu Santo Verde',s:[{l:'Marcalibro · Script',p:f+'nina-espiritusantoverde-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-espiritusantoverde-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-espiritusantoverde-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-espiritusantoverde-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-espiritusantoverde-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-espiritusantoverde-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Inicial',s:[{l:'Marcalibro · Script',p:f+'nina-inicial-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-inicial-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-inicial-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-inicial-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-inicial-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-inicial-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Iglesia',s:[{l:'Marcalibro · Script',p:f+'nina-iglesia-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-iglesia-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-iglesia-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-iglesia-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-iglesia-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-iglesia-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cáliz Floral',s:[{l:'Marcalibro · Script',p:f+'nina-calizfloral-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-calizfloral-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-calizfloral-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-calizfloral-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-calizfloral-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-calizfloral-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Bosque',s:[{l:'Marcalibro · Script',p:f+'nina-cruzbosque-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzbosque-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzboque-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzboque-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzbosque-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzbosque-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Floral',s:[{l:'Marcalibro · Script',p:f+'nina-cruzfloral-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzfloral-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzfloralmariposas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzfloralmariposas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzfloral-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzfloral-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Floral Roja',s:[{l:'Marcalibro · Script',p:f+'nina-cruzfloralroja-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzfloralroja-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzfloralrojamariposas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzfloralrojamariposas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzfloralroja-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzfloralroja-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz Libélulas',s:[{l:'Marcalibro · Script',p:f+'nina-cruzlibelulas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzlibelulas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzlibelulas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzlibelulas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzlibelulas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzlibelulas-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Cruz',s:[{l:'Marcalibro · Script',p:f+'nina-cruz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruz-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1"><span class="Apple-converted-space">  </span>{n:'Animales',s:[{l:'Marcalibro · Script',p:f+'nina-animales-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-animales-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-animales-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-animales-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-animales-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-animales-sq-muestra.jpg',ml:0}]},</p>
-<p class="p1">];</p>
-<p class="p2"><br></p>
-<p class="p1">function buildCard(data){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var card=document.createElement('div'); card.className='card';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var car=document.createElement('div'); car.className='carousel';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var track=document.createElement('div'); track.className='c-track';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>data.s.forEach(function(sl){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var slide=document.createElement('div'); slide.className='c-slide '+(sl.ml?'ml':'sq');</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var img=document.createElement('img'); img.src=sl.p; img.alt=sl.l;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>img.onclick=function(){lbOpen(sl.p);};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>img.onerror=function(){var p=this.parentElement;if(!p)return;p.classList.add('ph');this.remove();var ic=document.createElement('div');ic.className='ph-i';ic.textContent='<span class="s3">✦</span>';var tx=document.createElement('div');tx.className='ph-t';tx.textContent=sl.l;p.appendChild(ic);p.appendChild(tx);p.style.cursor='default';};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>slide.appendChild(img); track.appendChild(slide);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>car.appendChild(track);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var label=document.createElement('div'); label.className='c-label'; label.textContent=data.s[0].l; car.appendChild(label);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var dots=document.createElement('div'); dots.className='c-dots'; var cur=0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>function goTo(i){cur=i;track.style.transform='translateX(-'+cur*100+'%)';label.textContent=data.s[i].l;dots.querySelectorAll('.c-dot').forEach(function(d,j){d.classList.toggle('active',j===cur);});}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(data.s.length&gt;1){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var prev=document.createElement('button');prev.className='c-prev';prev.innerHTML='&amp;#8249;';prev.onclick=function(){goTo((cur-1+data.s.length)%data.s.length);};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var next=document.createElement('button');next.className='c-next';next.innerHTML='&amp;#8250;';next.onclick=function(){goTo((cur+1)%data.s.length);};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>car.appendChild(prev);car.appendChild(next);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>data.s.forEach(function(_,i){var d=document.createElement('button');d.className='c-dot'+(i===0?' active':'');d.onclick=function(){goTo(i);};dots.appendChild(d);});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var sx=0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>car.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;},{passive:true});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>car.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)&gt;40)goTo(dx&lt;0?(cur+1)%data.s.length:(cur-1+data.s.length)%data.s.length);},{passive:true});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>car.appendChild(dots); card.appendChild(car);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var body=document.createElement('div'); body.className='card-body';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>body.innerHTML='&lt;h4&gt;'+data.n+'&lt;/h4&gt;&lt;p&gt;Cuadrado · Marcalibro&lt;/p&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>card.appendChild(body); return card;</p>
-<p class="p1">}</p>
-<p class="p1">ninosData.forEach(function(d){document.getElementById('grid-nino').appendChild(buildCard(d));});</p>
-<p class="p1">ninasData.forEach(function(d){document.getElementById('grid-nina').appendChild(buildCard(d));});</p>
-<p class="p2"><br></p>
-<p class="p1">function showTab(t){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('panel-'+t).classList.add('active');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.querySelectorAll('.cat-tab').forEach(function(tab,i){tab.classList.toggle('active',(i===0&amp;&amp;t==='nino')||(i===1&amp;&amp;t==='nina'));});</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p3"><span class="s1">// </span>══════════════════════════════════════════════════</p>
-<p class="p1">// FORMULARIO DE PEDIDO</p>
-<p class="p3"><span class="s1">// </span>══════════════════════════════════════════════════</p>
-<p class="p1">var generoActual = 'nino';</p>
-<p class="p1">var cantOpciones = [6,12,18,24,30,36,42,48,54,60];</p>
-<p class="p2"><br></p>
-<p class="p1">function opcionesDiseno(genero){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lista = genero==='nino' ? ninosData : ninasData;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>return lista.map(function(d){return d.n;});</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function setGenero(g){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>generoActual = g;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('gtab-nino').classList.toggle('active', g==='nino');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('gtab-nina').classList.toggle('active', g==='nina');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('bloque-nino').classList.toggle('visible', g==='nino');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('bloque-nina').classList.toggle('visible', g==='nina');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Resetear filas al cambiar género</p>
-<p class="p1"><span class="Apple-converted-space">  </span>['nino','nina'].forEach(function(gn){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('filas-'+gn).innerHTML='';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>agregarFila(g);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>actualizarResumen();</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function makeSelect(cls, opts, defaultVal){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var sel = document.createElement('select');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>sel.className = 'form-control '+cls;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>opts.forEach(function(o){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var op = document.createElement('option');</p>
-<p class="p1"><span class="Apple-converted-space">    </span>op.value = o.val !== undefined ? o.val : o;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>op.textContent = o.label !== undefined ? o.label : o;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if(op.value === defaultVal) op.selected = true;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>sel.appendChild(op);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>return sel;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function agregarFila(g){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var cont = document.getElementById('filas-'+g);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var idx = cont.children.length;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var disenos = opcionesDiseno(g);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var row = document.createElement('div');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>row.className = 'diseno-row';</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fields = document.createElement('div');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>fields.className = 'diseno-row-fields';</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Select diseño</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var grpD = document.createElement('div'); grpD.className='form-group';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lblD = document.createElement('label'); lblD.className='form-label'; lblD.textContent='Diseño';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var selD = makeSelect('sel-diseno', disenos.map(function(n){return {val:n,label:n};}), null);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>grpD.appendChild(lblD); grpD.appendChild(selD);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Select formato</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var grpF = document.createElement('div'); grpF.className='form-group';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lblF = document.createElement('label'); lblF.className='form-label'; lblF.textContent='Formato';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var selF = makeSelect('sel-formato', [</p>
-<p class="p1"><span class="Apple-converted-space">    </span>{val:'Cuadrado 10×10 cm',label:'Cuadrado 10×10 cm'},</p>
-<p class="p1"><span class="Apple-converted-space">    </span>{val:'Marcalibro 7×15 cm',label:'Marcalibro 7×15 cm'}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>], null);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>grpF.appendChild(lblF); grpF.appendChild(selF);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Select tipografía</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var grpT = document.createElement('div'); grpT.className='form-group';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lblT = document.createElement('label'); lblT.className='form-label'; lblT.textContent='Tipografía';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var selT = makeSelect('sel-tipo', [</p>
-<p class="p1"><span class="Apple-converted-space">    </span>{val:'Script',label:'Script (cursiva elegante)'},</p>
-<p class="p1"><span class="Apple-converted-space">    </span>{val:'Serifa',label:'Serifa (clásica y formal)'}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>], null);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>grpT.appendChild(lblT); grpT.appendChild(selT);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Select cantidad</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var grpC = document.createElement('div'); grpC.className='form-group';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lblC = document.createElement('label'); lblC.className='form-label'; lblC.textContent='Cantidad';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var selC = makeSelect('sel-cant', cantOpciones.map(function(n){return {val:n,label:n+' unidades'};}), 6);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>selC.addEventListener('change', actualizarResumen);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>grpC.appendChild(lblC); grpC.appendChild(selC);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>fields.appendChild(grpD); fields.appendChild(grpF); fields.appendChild(grpT); fields.appendChild(grpC);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>row.appendChild(fields);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Botón quitar (no en la primera fila)</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(idx &gt; 0){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var btn = document.createElement('button');</p>
-<p class="p1"><span class="Apple-converted-space">    </span>btn.className='btn-quitar'; btn.type='button'; btn.textContent='<span class="s3">✕</span>';</p>
-<p class="p1"><span class="Apple-converted-space">    </span>btn.title='Quitar este diseño';</p>
-<p class="p1"><span class="Apple-converted-space">    </span>btn.onclick=function(){row.parentNode.removeChild(row);actualizarResumen();};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>row.appendChild(btn);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>cont.appendChild(row);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>actualizarResumen();</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function getFil(){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var g = generoActual;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var cont = document.getElementById('filas-'+g);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = cont.querySelectorAll('.diseno-row');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var res = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(row){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var diseno = row.querySelector('.sel-diseno').value;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var formato = row.querySelector('.sel-formato').value;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var tipo <span class="Apple-converted-space">  </span>= row.querySelector('.sel-tipo').value;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>var cant <span class="Apple-converted-space">  </span>= parseInt(row.querySelector('.sel-cant').value);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.push({diseno:diseno, formato:formato, tipo:tipo, cant:cant});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>return res;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function actualizarResumen(){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('cant-total').textContent = total;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Precio estimado</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Determinar formato mayoritario</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var esMarcalibro = filas.length&gt;0 &amp;&amp; filas[0].formato.indexOf('Marcalibro')&gt;=0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var precioU = esMarcalibro ? 1000 : 1100;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var precioT = total * precioU;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var precEl = document.getElementById('cant-precio');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&gt;0){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>precEl.innerHTML = ' · Precio estimado: &lt;strong&gt;$'+precioT.toLocaleString('es-CL')+'&lt;/strong&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>precEl.innerHTML='';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validar</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var errEl = document.getElementById('cant-error');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var hayError = total &lt; 24 || filas.some(function(f){return f.cant&lt;6;});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>errEl.style.display = hayError ? 'block':'none';</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// TARIFAS DE ENVÍO</p>
-<p class="p1">var tarifasEnvio = {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'las condes': 3000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'vitacura': 3000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'lo barnechea': 3000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'providencia': 3500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'ñuñoa': 3500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'la reina': 3500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'huechuraba': 4000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'peñalolén': 4500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'colina': 4500,</p>
-<p class="p1">};</p>
-<p class="p1">// Sectores especiales dentro de comunas</p>
-<p class="p1">var sectoresEspeciales = {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'huechuraba norte': 4500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'piedra roja': 4500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'chamisero': 4500,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'santa elena': 5000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'las brisas de chicureo': 5000,</p>
-<p class="p1"><span class="Apple-converted-space">  </span>'chicureo': 5000,</p>
-<p class="p1">};</p>
-<p class="p2"><br></p>
-<p class="p1">function calcularEnvio(){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var comuna = document.getElementById('f-comuna').value.trim().toLowerCase();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var box = document.getElementById('envio-box');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var res = document.getElementById('envio-resultado');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!comuna){box.style.display='none';return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Buscar en sectores especiales primero</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var tarifaSector = null;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>Object.keys(sectoresEspeciales).forEach(function(s){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if(comuna.indexOf(s)&gt;=0) tarifaSector = sectoresEspeciales[s];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(tarifaSector){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.innerHTML = '<span class="s4">🚚</span> Costo de envío estimado: &lt;strong&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Recoger valores</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreNino = document.getElementById('f-nombre-nino').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fecha<span class="Apple-converted-space">      </span>= document.getElementById('f-fecha').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lugar<span class="Apple-converted-space">      </span>= document.getElementById('f-lugar').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteN <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-nombre').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteT <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-tel').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var direccion<span class="Apple-converted-space">  </span>= document.getElementById('f-direccion').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var comuna <span class="Apple-converted-space">    </span>= document.getElementById('f-comuna').value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validaciones básicas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT||!direccion||!comuna){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>alert('Por favor completa todos los campos obligatorios.');return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&lt;24){alert('El pedido mínimo es de 24 unidades.');return;}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(filas.some(function(f){return f.cant&lt;6;})){alert('El mínimo por diseño es 6 unidades.');return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Armar mensaje</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lineas = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina <span class="s4">🌸</span>');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Género:* '+generoLabel);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Diseños:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(f,i){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Total:* '+total+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Datos de personalización:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+nombreNino);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Fecha: '+fecha);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Lugar: '+lugar);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Mis datos:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+clienteN);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Teléfono: '+clienteT);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Dirección: '+direccion+', '+comuna);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Envío</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var comunaNorm = comuna.toLowerCase();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var tarifaMsg = null;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>Object.keys(sectoresEspeciales).forEach(function(s){if(comunaNorm.indexOf(s)&gt;=0) tarifaMsg=sectoresEspeciales[s];});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!tarifaMsg) Object.keys(tarifasEnvio).forEach(function(c){if(comunaNorm.indexOf(c)&gt;=0||c.indexOf(comunaNorm)&gt;=0) tarifaMsg=tarifasEnvio[c];});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(tarifaMsg){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push('Envío:<span class="Apple-converted-space"> </span></p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p1">+tarifaSector.toLocaleString('es-CL')+'&lt;/strong&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">    </span>box.style.display='block'; return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Buscar en comunas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var tarifa = null;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>Object.keys(tarifasEnvio).forEach(function(c){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if(comuna.indexOf(c)&gt;=0 || c.indexOf(comuna)&gt;=0) tarifa = tarifasEnvio[c];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(tarifa){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.innerHTML = '<span class="s4">🚚</span> Costo de envío estimado: &lt;strong&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Recoger valores</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreNino = document.getElementById('f-nombre-nino').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fecha<span class="Apple-converted-space">      </span>= document.getElementById('f-fecha').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lugar<span class="Apple-converted-space">      </span>= document.getElementById('f-lugar').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteN <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-nombre').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteT <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-tel').value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validaciones básicas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>alert('Por favor completa todos los campos obligatorios.');return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&lt;24){alert('El pedido mínimo es de 24 unidades.');return;}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(filas.some(function(f){return f.cant&lt;6;})){alert('El mínimo por diseño es 6 unidades.');return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Armar mensaje</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lineas = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina <span class="s4">🌸</span>');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Género:* '+generoLabel);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Diseños:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(f,i){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Total:* '+total+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Datos de personalización:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+nombreNino);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Fecha: '+fecha);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Lugar: '+lugar);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Mis datos:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+clienteN);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Teléfono: '+clienteT);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p1">+tarifa.toLocaleString('es-CL')+'&lt;/strong&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.innerHTML = '<span class="s4">📦</span> El costo de envío para tu comuna será informado por WhatsApp.';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>box.style.display='block';</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function enviarPedido(){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Recoger valores</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreNino = document.getElementById('f-nombre-nino').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fecha<span class="Apple-converted-space">      </span>= document.getElementById('f-fecha').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lugar<span class="Apple-converted-space">      </span>= document.getElementById('f-lugar').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteN <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-nombre').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteT <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-tel').value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validaciones básicas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>alert('Por favor completa todos los campos obligatorios.');return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&lt;24){alert('El pedido mínimo es de 24 unidades.');return;}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(filas.some(function(f){return f.cant&lt;6;})){alert('El mínimo por diseño es 6 unidades.');return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Armar mensaje</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lineas = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina <span class="s4">🌸</span>');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Género:* '+generoLabel);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Diseños:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(f,i){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Total:* '+total+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Datos de personalización:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+nombreNino);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Fecha: '+fecha);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Lugar: '+lugar);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Mis datos:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+clienteN);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Teléfono: '+clienteT);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p1">+tarifaMsg.toLocaleString('es-CL')+' ('+comuna+')');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push('Envío: Por confirmar para comuna '+comuna);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p1">+tarifaSector.toLocaleString('es-CL')+'&lt;/strong&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">    </span>box.style.display='block'; return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Buscar en comunas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var tarifa = null;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>Object.keys(tarifasEnvio).forEach(function(c){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if(comuna.indexOf(c)&gt;=0 || c.indexOf(comuna)&gt;=0) tarifa = tarifasEnvio[c];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(tarifa){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.innerHTML = '<span class="s4">🚚</span> Costo de envío estimado: &lt;strong&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Recoger valores</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreNino = document.getElementById('f-nombre-nino').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fecha<span class="Apple-converted-space">      </span>= document.getElementById('f-fecha').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lugar<span class="Apple-converted-space">      </span>= document.getElementById('f-lugar').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteN <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-nombre').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteT <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-tel').value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validaciones básicas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>alert('Por favor completa todos los campos obligatorios.');return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&lt;24){alert('El pedido mínimo es de 24 unidades.');return;}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(filas.some(function(f){return f.cant&lt;6;})){alert('El mínimo por diseño es 6 unidades.');return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Armar mensaje</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lineas = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina <span class="s4">🌸</span>');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Género:* '+generoLabel);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Diseños:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(f,i){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Total:* '+total+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Datos de personalización:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+nombreNino);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Fecha: '+fecha);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Lugar: '+lugar);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Mis datos:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+clienteN);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Teléfono: '+clienteT);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p1">+tarifa.toLocaleString('es-CL')+'&lt;/strong&gt;';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>res.innerHTML = '<span class="s4">📦</span> El costo de envío para tu comuna será informado por WhatsApp.';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>box.style.display='block';</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">function enviarPedido(){</p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Recoger valores</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var filas = getFil();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var nombreNino = document.getElementById('f-nombre-nino').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var fecha<span class="Apple-converted-space">      </span>= document.getElementById('f-fecha').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lugar<span class="Apple-converted-space">      </span>= document.getElementById('f-lugar').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteN <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-nombre').value.trim();</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var clienteT <span class="Apple-converted-space">  </span>= document.getElementById('f-cliente-tel').value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Validaciones básicas</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>alert('Por favor completa todos los campos obligatorios.');return;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var total = filas.reduce(function(s,f){return s+f.cant;},0);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(total&lt;24){alert('El pedido mínimo es de 24 unidades.');return;}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if(filas.some(function(f){return f.cant&lt;6;})){alert('El mínimo por diseño es 6 unidades.');return;}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>// Armar mensaje</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var lineas = [];</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina <span class="s4">🌸</span>');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Género:* '+generoLabel);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Diseños:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>filas.forEach(function(f,i){</p>
-<p class="p1"><span class="Apple-converted-space">    </span>lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>});</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Total:* '+total+' unidades');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Datos de personalización:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+nombreNino);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Fecha: '+fecha);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Lugar: '+lugar);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('*Mis datos:*');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Nombre: '+clienteN);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>lineas.push('Teléfono: '+clienteT);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>var msg = lineas.join('\n');</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>window.open(url,'_blank');</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Inicializar con una fila de niño</p>
-<p class="p1">agregarFila('nino');</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" onclick="lbClose()">
+  <button class="lb-x" onclick="lbClose()">×</button>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- HEADER -->
+<header>
+  <img class="logo-img" src="fotos/logo.jpg" alt="La Opalina" onerror="this.style.display='none'">
+  <div class="header-text">
+    <h1>La Opalina</h1>
+    <p class="tagline">Diseños</p>
+  </div>
+</header>
+
+<!-- BANNER -->
+<div class="banner" id="banner">
+  <div class="banner-track" id="btrack">
+    <div class="banner-slide"><img src="banner1.jpg" alt=""></div>
+    <div class="banner-slide"><img src="banner2.jpg" alt=""></div>
+    <div class="banner-slide"><img src="banner3.jpg" alt=""></div>
+  </div>
+  <button class="b-btn b-prev" onclick="bGo(-1)">&#8249;</button>
+  <button class="b-btn b-next" onclick="bGo(1)">&#8250;</button>
+  <div class="b-dots">
+    <button class="b-dot active" onclick="bSet(0)"></button>
+    <button class="b-dot" onclick="bSet(1)"></button>
+    <button class="b-dot" onclick="bSet(2)"></button>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#como-pedir">¿Cómo pedir?</a>
+  <a href="#comunion">Primera Comunión</a>
+  <a href="#bautizo">Bautizo</a>
+  <a href="#precios">Precios</a>
+  <a href="#pedido">Hacer pedido</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<!-- COMO PEDIR -->
+<section id="como-pedir">
+  <p class="section-title">¿Cómo pedir?</p>
+  <div class="section-line"></div>
+  <div class="steps">
+    <div class="step"><div class="step-num">01</div><h3>Elige el diseño</h3><p>Selecciona entre nuestros diseños para niña o niño.</p></div>
+    <div class="step"><div class="step-num">02</div><h3>Elige el formato</h3><p><strong>Cuadrado 10×10 cm</strong> impreso por ambos lados, o <strong>Marcalibro 7×15 cm</strong> impreso por 1 lado.</p></div>
+    <div class="step"><div class="step-num">03</div><h3>Elige la tipografía</h3><p><strong>Script</strong> (cursiva elegante) o <strong>Serifa</strong> (clásica y formal).</p></div>
+    <div class="step"><div class="step-num">04</div><h3>Personaliza</h3><p>Nombre (primer nombre + 2 apellidos), fecha de la ceremonia y lugar del evento.</p></div>
+  </div>
+</section>
+
+<hr class="div">
+
+<!-- PRIMERA COMUNION -->
+<section id="comunion">
+  <p class="section-title">Primera Comunión</p>
+  <div class="section-line"></div>
+  <div class="cat-tabs">
+    <div class="cat-tab active" onclick="showTab('nino')">Niño</div>
+    <div class="cat-tab" onclick="showTab('nina')">Niña</div>
+  </div>
+  <div class="panel active" id="panel-nino"><div class="grid" id="grid-nino"></div></div>
+  <div class="panel" id="panel-nina"><div class="grid" id="grid-nina"></div></div>
+
+  <div class="reverso">
+    <p class="reverso-txt">Reverso Formato Cuadrado</p>
+    <div class="reverso-imgs">
+      <div class="rev-grupo">
+        <span class="rev-label">Reverso Niño</span>
+        <div class="rev-pair">
+          <div class="rev-item"><img src="nino-retiro-sq-script.jpg" alt="" onclick="lbOpen(this.src)"><span>Script</span></div>
+          <div class="rev-item"><img src="nino-retiro-sq-serif.jpg" alt="" onclick="lbOpen(this.src)"><span>Serifa</span></div>
+        </div>
+      </div>
+      <div class="rev-grupo">
+        <span class="rev-label">Reverso Niña</span>
+        <div class="rev-pair">
+          <div class="rev-item"><img src="nina-retiro-sq-script.jpg" alt="" onclick="lbOpen(this.src)"><span>Script</span></div>
+          <div class="rev-item"><img src="nina-retiro-sq-serif.jpg" alt="" onclick="lbOpen(this.src)"><span>Serifa</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="div">
+
+<!-- BAUTIZO -->
+<section id="bautizo">
+  <p class="section-title">Bautizo</p>
+  <div class="section-line"></div>
+  <div style="text-align:center;padding:3rem 1rem;border:1px solid var(--borde);background:var(--cafe-muy-claro)">
+    <p style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--titulo)">Próximamente</p>
+    <p style="font-size:0.75rem;color:var(--cafe-claro);margin-top:0.6rem">Estamos preparando los diseños de bautizo. ¡Escríbenos para más información!</p>
+  </div>
+</section>
+
+<hr class="div">
+
+<!-- PRECIOS -->
+<section id="precios">
+  <p class="section-title">Precios</p>
+  <div class="section-line"></div>
+  <div class="precios-grid">
+    <div class="precio-card">
+      <p class="p-tipo">Marcalibro · 7×15 cm</p>
+      <div class="p-val">$24.000</div>
+      <p class="p-sub">las 24 unidades · $1.000 c/u</p>
+      <div class="p-det">Impreso por 1 lado<br>Pedido mínimo: 24 unidades<br>Mínimo por diseño: 6 unidades</div>
+    </div>
+    <div class="precio-card dest">
+      <p class="p-tipo">Cuadrado · 10×10 cm</p>
+      <div class="p-val">$26.400</div>
+      <p class="p-sub">las 24 unidades · $1.100 c/u</p>
+      <div class="p-det">Impreso por ambos lados<br>Pedido mínimo: 24 unidades<br>Mínimo por diseño: 6 unidades</div>
+    </div>
+  </div>
+  <div class="info-grid">
+    <div class="info-card"><p class="p-tipo">Pago</p><p>Transferencia bancaria.<br>Pedido se confirma al recibir el pago.</p></div>
+    <div class="info-card"><p class="p-tipo">Elaboración</p><p>7 días hábiles.<br>Pide con anticipación.</p></div>
+    <div class="info-card"><p class="p-tipo">Despacho</p><p>RM: 1–2 días hábiles<br>Regiones centrales: 3–5 días hábiles<br><em>Tiempos adicionales al de fabricación. Regiones lejanas, consultar.</em></p></div>
+  </div>
+  <p class="envio-note">* Envío con costo adicional. Consulta por tu comuna o región vía WhatsApp.</p>
+</section>
+
+<hr class="div">
+
+<!-- ═══════════════════════════════════════
+     FORMULARIO DE PEDIDO
+════════════════════════════════════════ -->
+<section id="pedido" style="padding:3.5rem 1.5rem">
+  <div class="pedido-inner">
+    <p class="section-title">Hacer pedido</p>
+    <div class="section-line"></div>
+    <p class="pedido-intro">Completa el formulario y te generamos el mensaje listo para enviar por WhatsApp.<br>Pedido mínimo: <strong>24 unidades</strong> · Mínimo por diseño: <strong>6 unidades</strong>.</p>
+
+    <!-- 1. GÉNERO -->
+    <div class="pedido-seccion">
+      <p class="pedido-seccion-title">1 · ¿Es niño o niña?</p>
+      <div class="genero-tabs">
+        <div class="gtab active" id="gtab-nino" onclick="setGenero('nino')">Niño</div>
+        <div class="gtab" id="gtab-nina" onclick="setGenero('nina')">Niña</div>
+      </div>
+    </div>
+
+    <!-- 2. DISEÑOS -->
+    <div class="pedido-seccion">
+      <p class="pedido-seccion-title">2 · Diseño(s), formato, tipografía y cantidad</p>
+
+      <!-- Diseños Niño -->
+      <div class="disenos-bloque visible" id="bloque-nino">
+        <div id="filas-nino"></div>
+        <button class="btn-agregar" onclick="agregarFila('nino')">+ Agregar otro diseño</button>
+      </div>
+      <!-- Diseños Niña -->
+      <div class="disenos-bloque" id="bloque-nina">
+        <div id="filas-nina"></div>
+        <button class="btn-agregar" onclick="agregarFila('nina')">+ Agregar otro diseño</button>
+      </div>
+
+      <div class="cant-resumen" id="cant-resumen">
+        Total: <strong id="cant-total">0</strong> unidades
+        <span id="cant-precio"></span>
+      </div>
+      <div class="cant-error" id="cant-error">⚠ El total debe ser mínimo 24 unidades y cada diseño debe tener al menos 6.</div>
+    </div>
+
+    <!-- 3. DATOS DEL NIÑO/A -->
+    <div class="pedido-seccion">
+      <p class="pedido-seccion-title">3 · Datos de personalización</p>
+      <div class="form-grid">
+        <div class="form-group full">
+          <label class="form-label">Nombre completo del niño/a <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-nombre-nino" type="text" placeholder="Primer nombre y dos apellidos">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Fecha de la ceremonia <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-fecha" type="text" placeholder="ej. 14 de junio de 2025">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Lugar del evento <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-lugar" type="text" placeholder="ej. Iglesia San Francisco, Santiago">
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. DATOS DEL CLIENTE -->
+    <div class="pedido-seccion">
+      <p class="pedido-seccion-title">4 · Tus datos de contacto y despacho</p>
+      <div class="form-grid">
+        <div class="form-group">
+          <label class="form-label">Tu nombre <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-cliente-nombre" type="text" placeholder="Nombre y apellido">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tu teléfono <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-cliente-tel" type="tel" placeholder="+56 9 XXXX XXXX">
+        </div>
+        <div class="form-group full">
+          <label class="form-label">Dirección de despacho <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-direccion" type="text" placeholder="Calle, número, depto/casa">
+        </div>
+        <div class="form-group full">
+          <label class="form-label">Comuna <span style="color:#c0392b">*</span></label>
+          <input class="form-control" id="f-comuna" type="text" placeholder="ej. Las Condes" oninput="calcularEnvio()">
+        </div>
+        <div class="form-group full" id="envio-box" style="display:none">
+          <div id="envio-resultado" style="padding:0.8rem 1rem;font-size:0.8rem;border:1px solid var(--borde);background:#fff;color:var(--cafe)"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTÓN -->
+    <button class="btn-enviar" id="btn-enviar" onclick="enviarPedido()">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Enviar pedido por WhatsApp
+    </button>
+    <p class="form-nota">Al hacer clic se abrirá WhatsApp con tu pedido pre-armado.<br>El pedido se confirma una vez recibido el pago por transferencia.</p>
+  </div>
+</section>
+
+<hr class="div">
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <p class="section-title">Contacto</p>
+  <div class="section-line"></div>
+  <div class="contacto-box">
+    <p>¿Tienes dudas o estás lista/o para pedir?<br>Escríbenos directamente y con gusto te ayudamos.</p>
+    <div class="c-btns">
+      <a class="btn-wsp" href="https://wa.me/56984198431" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp · Cata
+      </a>
+      <a class="btn-ig" href="https://instagram.com/laopalina_" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        @laopalina_
+      </a>
+    </div>
+    <p class="c-tel">También puedes escribirnos al <strong>+56 9 8419 8431</strong></p>
+  </div>
+</section>
+
+<footer><p>© 2025 La Opalina Diseños · Todos los derechos reservados</p></footer>
+
+<a class="wsp-float" href="https://wa.me/56984198431" target="_blank">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// ── LIGHTBOX ──────────────────────────────────────
+function lbOpen(src){document.getElementById('lb-img').src=src;document.getElementById('lb').classList.add('open');}
+function lbClose(){document.getElementById('lb').classList.remove('open');}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lbClose();});
+
+// ── BANNER ────────────────────────────────────────
+var bc=0;
+function bSet(i){bc=i;var t=document.getElementById('btrack');if(t)t.style.transform='translateX(-'+i*100+'%)';document.querySelectorAll('.b-dot').forEach(function(d,j){d.classList.toggle('active',j===bc);});}
+function bGo(dir){bSet((bc+dir+3)%3);}
+setInterval(function(){bGo(1);},4000);
+var bEl=document.getElementById('banner');
+if(bEl){var bsx=0;bEl.addEventListener('touchstart',function(e){bsx=e.touches[0].clientX;},{passive:true});bEl.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-bsx;if(Math.abs(dx)>40)bGo(dx<0?1:-1);},{passive:true});}
+
+// ── DESIGNS DATA ──────────────────────────────────
+var f='';
+var ninosData=[
+  {n:'Espíritu Santo',s:[{l:'Marcalibro · Script',p:f+'nino-espiritusanto-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-espiritusanto-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-espiritusanto-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-espiritusanto-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-espiritusanto-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-espiritusanto-sq-muestra.jpg',ml:0}]},
+  {n:'Inicial Verde',s:[{l:'Marcalibro · Script',p:f+'nino-inicialverde-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-inicialverde-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-inicialverde-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-inicialverde-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-inicialverde-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-inicialverde-sq-muestra.jpg',ml:0}]},
+  {n:'Inicial Hojas',s:[{l:'Marcalibro · Script',p:f+'nino-inicialhojas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-inicialhojas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-inicialhojas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-inicialhojas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-inicialhojas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-inicialhojas-sq-muestra.jpg',ml:0}]},
+  {n:'Iglesia',s:[{l:'Marcalibro · Script',p:f+'nino-iglesia-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-iglesia-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-iglesia-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-iglesia-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-iglesia-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-iglesia-sq-muestra.jpg',ml:0}]},
+  {n:'Cáliz',s:[{l:'Marcalibro · Script',p:f+'nino-caliz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-caliz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-caliz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-caliz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-caliz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-caliz-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Bosque',s:[{l:'Marcalibro · Script',p:f+'nino-cruzbosque-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruzbosque-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruzbosque-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruzbosque-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruzbosque-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruzbosque-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Libélulas',s:[{l:'Marcalibro · Script',p:f+'nino-cruzlibelulas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruzlibelulas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruzlibelulas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruzlibelulas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruzlibelulas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruzlibelulas-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz',s:[{l:'Marcalibro · Script',p:f+'nino-cruz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-cruz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-cruz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-cruz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-cruz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-cruz-sq-muestra.jpg',ml:0}]},
+  {n:'Insectos',s:[{l:'Marcalibro · Script',p:f+'nino-insectos-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nino-insectos-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nino-insectos-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nino-insectos-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nino-insectos-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nino-insectos-sq-muestra.jpg',ml:0}]},
+];
+var ninasData=[
+  {n:'Espíritu Santo',s:[{l:'Marcalibro · Script',p:f+'nina-espiritusanto-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-espiritusanto-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-espiritusanto-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-espiritusanto-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-espiritusanto-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-espiritusanto-sq-muestra.jpg',ml:0}]},
+  {n:'Espíritu Santo Verde',s:[{l:'Marcalibro · Script',p:f+'nina-espiritusantoverde-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-espiritusantoverde-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-espiritusantoverde-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-espiritusantoverde-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-espiritusantoverde-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-espiritusantoverde-sq-muestra.jpg',ml:0}]},
+  {n:'Inicial',s:[{l:'Marcalibro · Script',p:f+'nina-inicial-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-inicial-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-inicial-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-inicial-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-inicial-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-inicial-sq-muestra.jpg',ml:0}]},
+  {n:'Iglesia',s:[{l:'Marcalibro · Script',p:f+'nina-iglesia-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-iglesia-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-iglesia-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-iglesia-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-iglesia-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-iglesia-sq-muestra.jpg',ml:0}]},
+  {n:'Cáliz Floral',s:[{l:'Marcalibro · Script',p:f+'nina-calizfloral-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-calizfloral-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-calizfloral-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-calizfloral-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-calizfloral-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-calizfloral-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Bosque',s:[{l:'Marcalibro · Script',p:f+'nina-cruzbosque-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzbosque-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzboque-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzboque-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzbosque-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzbosque-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Floral',s:[{l:'Marcalibro · Script',p:f+'nina-cruzfloral-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzfloral-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzfloralmariposas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzfloralmariposas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzfloral-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzfloral-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Floral Roja',s:[{l:'Marcalibro · Script',p:f+'nina-cruzfloralroja-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzfloralroja-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzfloralrojamariposas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzfloralrojamariposas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzfloralroja-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzfloralroja-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz Libélulas',s:[{l:'Marcalibro · Script',p:f+'nina-cruzlibelulas-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruzlibelulas-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruzlibelulas-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruzlibelulas-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruzlibelulas-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruzlibelulas-sq-muestra.jpg',ml:0}]},
+  {n:'Cruz',s:[{l:'Marcalibro · Script',p:f+'nina-cruz-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-cruz-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-cruz-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-cruz-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-cruz-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-cruz-sq-muestra.jpg',ml:0}]},
+  {n:'Animales',s:[{l:'Marcalibro · Script',p:f+'nina-animales-ml-script.jpg',ml:1},{l:'Marcalibro · Serifa',p:f+'nina-animales-ml-serif.jpg',ml:1},{l:'Cuadrado · Script',p:f+'nina-animales-sq-script.jpg',ml:0},{l:'Cuadrado · Serifa',p:f+'nina-animales-sq-serif.jpg',ml:0},{l:'Muestra Marcalibro',p:f+'nina-animales-ml-muestra.jpg',ml:1},{l:'Muestra Cuadrado',p:f+'nina-animales-sq-muestra.jpg',ml:0}]},
+];
+
+function buildCard(data){
+  var card=document.createElement('div'); card.className='card';
+  var car=document.createElement('div'); car.className='carousel';
+  var track=document.createElement('div'); track.className='c-track';
+  data.s.forEach(function(sl){
+    var slide=document.createElement('div'); slide.className='c-slide '+(sl.ml?'ml':'sq');
+    var img=document.createElement('img'); img.src=sl.p; img.alt=sl.l;
+    img.onclick=function(){lbOpen(sl.p);};
+    img.onerror=function(){var p=this.parentElement;if(!p)return;p.classList.add('ph');this.remove();var ic=document.createElement('div');ic.className='ph-i';ic.textContent='✦';var tx=document.createElement('div');tx.className='ph-t';tx.textContent=sl.l;p.appendChild(ic);p.appendChild(tx);p.style.cursor='default';};
+    slide.appendChild(img); track.appendChild(slide);
+  });
+  car.appendChild(track);
+  var label=document.createElement('div'); label.className='c-label'; label.textContent=data.s[0].l; car.appendChild(label);
+  var dots=document.createElement('div'); dots.className='c-dots'; var cur=0;
+  function goTo(i){cur=i;track.style.transform='translateX(-'+cur*100+'%)';label.textContent=data.s[i].l;dots.querySelectorAll('.c-dot').forEach(function(d,j){d.classList.toggle('active',j===cur);});}
+  if(data.s.length>1){
+    var prev=document.createElement('button');prev.className='c-prev';prev.innerHTML='&#8249;';prev.onclick=function(){goTo((cur-1+data.s.length)%data.s.length);};
+    var next=document.createElement('button');next.className='c-next';next.innerHTML='&#8250;';next.onclick=function(){goTo((cur+1)%data.s.length);};
+    car.appendChild(prev);car.appendChild(next);
+    data.s.forEach(function(_,i){var d=document.createElement('button');d.className='c-dot'+(i===0?' active':'');d.onclick=function(){goTo(i);};dots.appendChild(d);});
+  }
+  var sx=0;
+  car.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;},{passive:true});
+  car.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)goTo(dx<0?(cur+1)%data.s.length:(cur-1+data.s.length)%data.s.length);},{passive:true});
+  car.appendChild(dots); card.appendChild(car);
+  var body=document.createElement('div'); body.className='card-body';
+  body.innerHTML='<h4>'+data.n+'</h4><p>Cuadrado · Marcalibro</p>';
+  card.appendChild(body); return card;
+}
+ninosData.forEach(function(d){document.getElementById('grid-nino').appendChild(buildCard(d));});
+ninasData.forEach(function(d){document.getElementById('grid-nina').appendChild(buildCard(d));});
+
+function showTab(t){
+  document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});
+  document.getElementById('panel-'+t).classList.add('active');
+  document.querySelectorAll('.cat-tab').forEach(function(tab,i){tab.classList.toggle('active',(i===0&&t==='nino')||(i===1&&t==='nina'));});
+}
+
+// ══════════════════════════════════════════════════
+// FORMULARIO DE PEDIDO
+// ══════════════════════════════════════════════════
+var generoActual = 'nino';
+var cantOpciones = [6,12,18,24,30,36,42,48,54,60];
+
+function opcionesDiseno(genero){
+  var lista = genero==='nino' ? ninosData : ninasData;
+  return lista.map(function(d){return d.n;});
+}
+
+function setGenero(g){
+  generoActual = g;
+  document.getElementById('gtab-nino').classList.toggle('active', g==='nino');
+  document.getElementById('gtab-nina').classList.toggle('active', g==='nina');
+  document.getElementById('bloque-nino').classList.toggle('visible', g==='nino');
+  document.getElementById('bloque-nina').classList.toggle('visible', g==='nina');
+  // Resetear filas al cambiar género
+  ['nino','nina'].forEach(function(gn){
+    document.getElementById('filas-'+gn).innerHTML='';
+  });
+  agregarFila(g);
+  actualizarResumen();
+}
+
+function makeSelect(cls, opts, defaultVal){
+  var sel = document.createElement('select');
+  sel.className = 'form-control '+cls;
+  opts.forEach(function(o){
+    var op = document.createElement('option');
+    op.value = o.val !== undefined ? o.val : o;
+    op.textContent = o.label !== undefined ? o.label : o;
+    if(op.value === defaultVal) op.selected = true;
+    sel.appendChild(op);
+  });
+  return sel;
+}
+
+function agregarFila(g){
+  var cont = document.getElementById('filas-'+g);
+  var idx = cont.children.length;
+  var disenos = opcionesDiseno(g);
+
+  var row = document.createElement('div');
+  row.className = 'diseno-row';
+
+  var fields = document.createElement('div');
+  fields.className = 'diseno-row-fields';
+
+  // Select diseño
+  var grpD = document.createElement('div'); grpD.className='form-group';
+  var lblD = document.createElement('label'); lblD.className='form-label'; lblD.textContent='Diseño';
+  var selD = makeSelect('sel-diseno', disenos.map(function(n){return {val:n,label:n};}), null);
+  grpD.appendChild(lblD); grpD.appendChild(selD);
+
+  // Select formato
+  var grpF = document.createElement('div'); grpF.className='form-group';
+  var lblF = document.createElement('label'); lblF.className='form-label'; lblF.textContent='Formato';
+  var selF = makeSelect('sel-formato', [
+    {val:'Cuadrado 10×10 cm',label:'Cuadrado 10×10 cm'},
+    {val:'Marcalibro 7×15 cm',label:'Marcalibro 7×15 cm'}
+  ], null);
+  grpF.appendChild(lblF); grpF.appendChild(selF);
+
+  // Select tipografía
+  var grpT = document.createElement('div'); grpT.className='form-group';
+  var lblT = document.createElement('label'); lblT.className='form-label'; lblT.textContent='Tipografía';
+  var selT = makeSelect('sel-tipo', [
+    {val:'Script',label:'Script (cursiva elegante)'},
+    {val:'Serifa',label:'Serifa (clásica y formal)'}
+  ], null);
+  grpT.appendChild(lblT); grpT.appendChild(selT);
+
+  // Select cantidad
+  var grpC = document.createElement('div'); grpC.className='form-group';
+  var lblC = document.createElement('label'); lblC.className='form-label'; lblC.textContent='Cantidad';
+  var selC = makeSelect('sel-cant', cantOpciones.map(function(n){return {val:n,label:n+' unidades'};}), 6);
+  selC.addEventListener('change', actualizarResumen);
+  grpC.appendChild(lblC); grpC.appendChild(selC);
+
+  fields.appendChild(grpD); fields.appendChild(grpF); fields.appendChild(grpT); fields.appendChild(grpC);
+  row.appendChild(fields);
+
+  // Botón quitar (no en la primera fila)
+  if(idx > 0){
+    var btn = document.createElement('button');
+    btn.className='btn-quitar'; btn.type='button'; btn.textContent='✕';
+    btn.title='Quitar este diseño';
+    btn.onclick=function(){row.parentNode.removeChild(row);actualizarResumen();};
+    row.appendChild(btn);
+  }
+
+  cont.appendChild(row);
+  actualizarResumen();
+}
+
+function getFil(){
+  var g = generoActual;
+  var cont = document.getElementById('filas-'+g);
+  var filas = cont.querySelectorAll('.diseno-row');
+  var res = [];
+  filas.forEach(function(row){
+    var diseno = row.querySelector('.sel-diseno').value;
+    var formato = row.querySelector('.sel-formato').value;
+    var tipo   = row.querySelector('.sel-tipo').value;
+    var cant   = parseInt(row.querySelector('.sel-cant').value);
+    res.push({diseno:diseno, formato:formato, tipo:tipo, cant:cant});
+  });
+  return res;
+}
+
+function actualizarResumen(){
+  var filas = getFil();
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  document.getElementById('cant-total').textContent = total;
+
+  // Precio estimado
+  // Determinar formato mayoritario
+  var esMarcalibro = filas.length>0 && filas[0].formato.indexOf('Marcalibro')>=0;
+  var precioU = esMarcalibro ? 1000 : 1100;
+  var precioT = total * precioU;
+  var precEl = document.getElementById('cant-precio');
+  if(total>0){
+    precEl.innerHTML = ' · Precio estimado: <strong>$'+precioT.toLocaleString('es-CL')+'</strong>';
+  } else {
+    precEl.innerHTML='';
+  }
+
+  // Validar
+  var errEl = document.getElementById('cant-error');
+  var hayError = total < 24 || filas.some(function(f){return f.cant<6;});
+  errEl.style.display = hayError ? 'block':'none';
+}
+
+// TARIFAS DE ENVÍO
+var tarifasEnvio = {
+  'las condes': 3000,
+  'vitacura': 3000,
+  'lo barnechea': 3000,
+  'providencia': 3500,
+  'ñuñoa': 3500,
+  'la reina': 3500,
+  'huechuraba': 4000,
+  'peñalolén': 4500,
+  'colina': 4500,
+};
+// Sectores especiales dentro de comunas
+var sectoresEspeciales = {
+  'huechuraba norte': 4500,
+  'piedra roja': 4500,
+  'chamisero': 4500,
+  'santa elena': 5000,
+  'las brisas de chicureo': 5000,
+  'chicureo': 5000,
+};
+
+function calcularEnvio(){
+  var comuna = document.getElementById('f-comuna').value.trim().toLowerCase();
+  var box = document.getElementById('envio-box');
+  var res = document.getElementById('envio-resultado');
+  if(!comuna){box.style.display='none';return;}
+
+  // Buscar en sectores especiales primero
+  var tarifaSector = null;
+  Object.keys(sectoresEspeciales).forEach(function(s){
+    if(comuna.indexOf(s)>=0) tarifaSector = sectoresEspeciales[s];
+  });
+  if(tarifaSector){
+    res.innerHTML = '🚚 Costo de envío estimado: <strong>
+  // Recoger valores
+  var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';
+  var filas = getFil();
+  var nombreNino = document.getElementById('f-nombre-nino').value.trim();
+  var fecha      = document.getElementById('f-fecha').value.trim();
+  var lugar      = document.getElementById('f-lugar').value.trim();
+  var clienteN   = document.getElementById('f-cliente-nombre').value.trim();
+  var clienteT   = document.getElementById('f-cliente-tel').value.trim();
+  var direccion  = document.getElementById('f-direccion').value.trim();
+  var comuna     = document.getElementById('f-comuna').value.trim();
+
+  // Validaciones básicas
+  if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT||!direccion||!comuna){
+    alert('Por favor completa todos los campos obligatorios.');return;
+  }
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  if(total<24){alert('El pedido mínimo es de 24 unidades.');return;}
+  if(filas.some(function(f){return f.cant<6;})){alert('El mínimo por diseño es 6 unidades.');return;}
+
+  // Armar mensaje
+  var lineas = [];
+  lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina 🌸');
+  lineas.push('');
+  lineas.push('*Género:* '+generoLabel);
+  lineas.push('');
+  lineas.push('*Diseños:*');
+  filas.forEach(function(f,i){
+    lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');
+  });
+  lineas.push('');
+  lineas.push('*Total:* '+total+' unidades');
+  lineas.push('');
+  lineas.push('*Datos de personalización:*');
+  lineas.push('Nombre: '+nombreNino);
+  lineas.push('Fecha: '+fecha);
+  lineas.push('Lugar: '+lugar);
+  lineas.push('');
+  lineas.push('*Mis datos:*');
+  lineas.push('Nombre: '+clienteN);
+  lineas.push('Teléfono: '+clienteT);
+  lineas.push('Dirección: '+direccion+', '+comuna);
+
+  // Envío
+  var comunaNorm = comuna.toLowerCase();
+  var tarifaMsg = null;
+  Object.keys(sectoresEspeciales).forEach(function(s){if(comunaNorm.indexOf(s)>=0) tarifaMsg=sectoresEspeciales[s];});
+  if(!tarifaMsg) Object.keys(tarifasEnvio).forEach(function(c){if(comunaNorm.indexOf(c)>=0||c.indexOf(comunaNorm)>=0) tarifaMsg=tarifasEnvio[c];});
+  if(tarifaMsg){
+    lineas.push('Envío: 
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
+</body>
+</html>
++tarifaSector.toLocaleString('es-CL')+'</strong>';
+    box.style.display='block'; return;
+  }
+
+  // Buscar en comunas
+  var tarifa = null;
+  Object.keys(tarifasEnvio).forEach(function(c){
+    if(comuna.indexOf(c)>=0 || c.indexOf(comuna)>=0) tarifa = tarifasEnvio[c];
+  });
+  if(tarifa){
+    res.innerHTML = '🚚 Costo de envío estimado: <strong>
+  // Recoger valores
+  var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';
+  var filas = getFil();
+  var nombreNino = document.getElementById('f-nombre-nino').value.trim();
+  var fecha      = document.getElementById('f-fecha').value.trim();
+  var lugar      = document.getElementById('f-lugar').value.trim();
+  var clienteN   = document.getElementById('f-cliente-nombre').value.trim();
+  var clienteT   = document.getElementById('f-cliente-tel').value.trim();
+
+  // Validaciones básicas
+  if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){
+    alert('Por favor completa todos los campos obligatorios.');return;
+  }
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  if(total<24){alert('El pedido mínimo es de 24 unidades.');return;}
+  if(filas.some(function(f){return f.cant<6;})){alert('El mínimo por diseño es 6 unidades.');return;}
+
+  // Armar mensaje
+  var lineas = [];
+  lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina 🌸');
+  lineas.push('');
+  lineas.push('*Género:* '+generoLabel);
+  lineas.push('');
+  lineas.push('*Diseños:*');
+  filas.forEach(function(f,i){
+    lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');
+  });
+  lineas.push('');
+  lineas.push('*Total:* '+total+' unidades');
+  lineas.push('');
+  lineas.push('*Datos de personalización:*');
+  lineas.push('Nombre: '+nombreNino);
+  lineas.push('Fecha: '+fecha);
+  lineas.push('Lugar: '+lugar);
+  lineas.push('');
+  lineas.push('*Mis datos:*');
+  lineas.push('Nombre: '+clienteN);
+  lineas.push('Teléfono: '+clienteT);
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
+</body>
+</html>
++tarifa.toLocaleString('es-CL')+'</strong>';
+  } else {
+    res.innerHTML = '📦 El costo de envío para tu comuna será informado por WhatsApp.';
+  }
+  box.style.display='block';
+}
+
+function enviarPedido(){
+  // Recoger valores
+  var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';
+  var filas = getFil();
+  var nombreNino = document.getElementById('f-nombre-nino').value.trim();
+  var fecha      = document.getElementById('f-fecha').value.trim();
+  var lugar      = document.getElementById('f-lugar').value.trim();
+  var clienteN   = document.getElementById('f-cliente-nombre').value.trim();
+  var clienteT   = document.getElementById('f-cliente-tel').value.trim();
+
+  // Validaciones básicas
+  if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){
+    alert('Por favor completa todos los campos obligatorios.');return;
+  }
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  if(total<24){alert('El pedido mínimo es de 24 unidades.');return;}
+  if(filas.some(function(f){return f.cant<6;})){alert('El mínimo por diseño es 6 unidades.');return;}
+
+  // Armar mensaje
+  var lineas = [];
+  lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina 🌸');
+  lineas.push('');
+  lineas.push('*Género:* '+generoLabel);
+  lineas.push('');
+  lineas.push('*Diseños:*');
+  filas.forEach(function(f,i){
+    lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');
+  });
+  lineas.push('');
+  lineas.push('*Total:* '+total+' unidades');
+  lineas.push('');
+  lineas.push('*Datos de personalización:*');
+  lineas.push('Nombre: '+nombreNino);
+  lineas.push('Fecha: '+fecha);
+  lineas.push('Lugar: '+lugar);
+  lineas.push('');
+  lineas.push('*Mis datos:*');
+  lineas.push('Nombre: '+clienteN);
+  lineas.push('Teléfono: '+clienteT);
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
+</body>
+</html>
++tarifaMsg.toLocaleString('es-CL')+' ('+comuna+')');
+  } else {
+    lineas.push('Envío: Por confirmar para comuna '+comuna);
+  }
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
+</body>
+</html>
++tarifaSector.toLocaleString('es-CL')+'</strong>';
+    box.style.display='block'; return;
+  }
+
+  // Buscar en comunas
+  var tarifa = null;
+  Object.keys(tarifasEnvio).forEach(function(c){
+    if(comuna.indexOf(c)>=0 || c.indexOf(comuna)>=0) tarifa = tarifasEnvio[c];
+  });
+  if(tarifa){
+    res.innerHTML = '🚚 Costo de envío estimado: <strong>
+  // Recoger valores
+  var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';
+  var filas = getFil();
+  var nombreNino = document.getElementById('f-nombre-nino').value.trim();
+  var fecha      = document.getElementById('f-fecha').value.trim();
+  var lugar      = document.getElementById('f-lugar').value.trim();
+  var clienteN   = document.getElementById('f-cliente-nombre').value.trim();
+  var clienteT   = document.getElementById('f-cliente-tel').value.trim();
+
+  // Validaciones básicas
+  if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){
+    alert('Por favor completa todos los campos obligatorios.');return;
+  }
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  if(total<24){alert('El pedido mínimo es de 24 unidades.');return;}
+  if(filas.some(function(f){return f.cant<6;})){alert('El mínimo por diseño es 6 unidades.');return;}
+
+  // Armar mensaje
+  var lineas = [];
+  lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina 🌸');
+  lineas.push('');
+  lineas.push('*Género:* '+generoLabel);
+  lineas.push('');
+  lineas.push('*Diseños:*');
+  filas.forEach(function(f,i){
+    lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');
+  });
+  lineas.push('');
+  lineas.push('*Total:* '+total+' unidades');
+  lineas.push('');
+  lineas.push('*Datos de personalización:*');
+  lineas.push('Nombre: '+nombreNino);
+  lineas.push('Fecha: '+fecha);
+  lineas.push('Lugar: '+lugar);
+  lineas.push('');
+  lineas.push('*Mis datos:*');
+  lineas.push('Nombre: '+clienteN);
+  lineas.push('Teléfono: '+clienteT);
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
+</body>
+</html>
++tarifa.toLocaleString('es-CL')+'</strong>';
+  } else {
+    res.innerHTML = '📦 El costo de envío para tu comuna será informado por WhatsApp.';
+  }
+  box.style.display='block';
+}
+
+function enviarPedido(){
+  // Recoger valores
+  var generoLabel = generoActual==='nino' ? 'Niño' : 'Niña';
+  var filas = getFil();
+  var nombreNino = document.getElementById('f-nombre-nino').value.trim();
+  var fecha      = document.getElementById('f-fecha').value.trim();
+  var lugar      = document.getElementById('f-lugar').value.trim();
+  var clienteN   = document.getElementById('f-cliente-nombre').value.trim();
+  var clienteT   = document.getElementById('f-cliente-tel').value.trim();
+
+  // Validaciones básicas
+  if(!nombreNino||!fecha||!lugar||!clienteN||!clienteT){
+    alert('Por favor completa todos los campos obligatorios.');return;
+  }
+  var total = filas.reduce(function(s,f){return s+f.cant;},0);
+  if(total<24){alert('El pedido mínimo es de 24 unidades.');return;}
+  if(filas.some(function(f){return f.cant<6;})){alert('El mínimo por diseño es 6 unidades.');return;}
+
+  // Armar mensaje
+  var lineas = [];
+  lineas.push('¡Hola Cata! Quiero hacer un pedido en La Opalina 🌸');
+  lineas.push('');
+  lineas.push('*Género:* '+generoLabel);
+  lineas.push('');
+  lineas.push('*Diseños:*');
+  filas.forEach(function(f,i){
+    lineas.push((i+1)+'. '+f.diseno+' · '+f.formato+' · Tipografía '+f.tipo+' · '+f.cant+' unidades');
+  });
+  lineas.push('');
+  lineas.push('*Total:* '+total+' unidades');
+  lineas.push('');
+  lineas.push('*Datos de personalización:*');
+  lineas.push('Nombre: '+nombreNino);
+  lineas.push('Fecha: '+fecha);
+  lineas.push('Lugar: '+lugar);
+  lineas.push('');
+  lineas.push('*Mis datos:*');
+  lineas.push('Nombre: '+clienteN);
+  lineas.push('Teléfono: '+clienteT);
+
+  var msg = lineas.join('\n');
+  var url = 'https://wa.me/56984198431?text='+encodeURIComponent(msg);
+  window.open(url,'_blank');
+}
+
+// Inicializar con una fila de niño
+agregarFila('nino');
+</script>
 </body>
 </html>
